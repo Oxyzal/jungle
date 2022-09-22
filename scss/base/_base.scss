@@ -1,6 +1,6 @@
 // Config basic size and fonts for all pages
 :root {
-  font-size: 16px;
+  font-size: 24px;
   font-family: 'Comfortaa', sans-serif;
 
   @include for-mobiles {
@@ -19,7 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 120px;
-  background-color: $white;
+  background-color: $bg;
   overflow-x: hidden;
 
   @include for-tablets {
