@@ -50,14 +50,14 @@ table {
 }
 
 @font-face {
-  font-family: "Swistblnk Monthoers Regular";
+  font-family: "Swistblnk Monthoers";
   font-style: normal;
   font-weight: normal;
-  src: local("Swistblnk Monthoers Regular"), url("Monthoers.woff") format("woff");
+  src: local("Swistblnk Monthoers Regular"), url("./asset/Monthoers.woff") format("woff");
 }
 :root {
   font-size: 24px;
-  font-family: "Swistblnk Monthoers Regular";
+  font-family: "Swistblnk Monthoers";
 }
 @media screen and (max-width: 700px) {
   :root {
