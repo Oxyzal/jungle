@@ -26,3 +26,23 @@ h2{
   font-size: 2rem;
   font-weight: 400;
 }
+
+.nous{
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  .flexcol{
+    margin-top: 2%;
+    gap: 2rem;
+    .rem3{
+      font-size: 3rem;
+      color: $primary2;
+    }
+  }
+  img{
+    width: 30%;
+    border-radius: 5px;
+    object-fit: contain;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+}

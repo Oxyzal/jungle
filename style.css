@@ -76,7 +76,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 120px;
-  background-color: #fafaf1;
+  background-color: #FFFAF1;
   overflow-x: hidden;
 }
 @media screen and (max-width: 1024px) {
@@ -105,6 +105,15 @@ body {
     flex-direction: column-reverse;
     justify-content: center !important;
   }
+}
+
+.flexcol {
+  display: flex;
+  flex-direction: column;
+}
+
+.w1-3 {
+  width: 33%;
 }
 
 header {
@@ -181,6 +190,26 @@ h2 {
   color: #FFE8C1;
   font-size: 2rem;
   font-weight: 400;
+}
+
+.nous {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+}
+.nous .flexcol {
+  margin-top: 2%;
+  gap: 2rem;
+}
+.nous .flexcol .rem3 {
+  font-size: 3rem;
+  color: #007F7F;
+}
+.nous img {
+  width: 30%;
+  border-radius: 5px;
+  object-fit: contain;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 /*# sourceMappingURL=style.css.map */

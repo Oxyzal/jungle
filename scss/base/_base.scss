@@ -51,3 +51,11 @@ body {
     justify-content: center !important;
   }
 }
+
+.flexcol{
+  display: flex;
+  flex-direction: column;
+}
+.w1-3{
+  width: 33%;
+}
