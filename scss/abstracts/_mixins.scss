@@ -1,10 +1,24 @@
-// Mixin for linear gradiant background for all web browser
-@mixin bg-gradiant($color) {
-  background: linear-gradient($color, darken($color, 20%));
-  background: -webkit-linear-gradient(left, $color, darken($color, 20%));
-  background: -moz-linear-gradient(left, $color, darken($color, 20%));
-  background: -ms-linear-gradient(left, $color, darken($color, 20%));
+// Mixin for colors
+
+@mixin main_color() {
+  color: #017C7C;
 }
+
+@mixin secondary_color() {
+  color: #96694B;
+}
+
+@mixin third_color() {
+  color: #FFE8C1;
+}
+
+
+@mixin black() {
+  color: #130E12;
+}
+
+
+
 
 // Mixin for transform in all web browser
 @mixin transform($property, $value) {
@@ -34,23 +48,3 @@
   }
 }
 
-@mixin moving-gradiant($color) {
-  /*gradient animation*/
-  background: linear-gradient(45deg, lighter$color, 20% 0%, darken($color, 20%) 100%);
-  background-size: 400% 400%;
-  animation: gradient 6s ease infinite;
-
-  @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-
-    50% {
-      background-position: 100% 50%;
-    }
-
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-}
