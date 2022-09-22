@@ -163,12 +163,35 @@ header .menu .search .borderh {
   align-items: center;
 }
 .button p {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .jaune {
   color: #ffe8c1;
   border: #ffe8c1 3px solid;
+}
+
+.blanc {
+  color: #ffffff;
+  border: #ffffff 3px solid;
+}
+
+.bleu {
+  color: #007F7F;
+  border: #007F7F 3px solid;
+}
+
+.btnheader {
+  margin: 10%;
+  text-align: -webkit-right;
+}
+
+.btn {
+  place-self: self-end;
+}
+
+.btn2 {
+  place-self: center;
 }
 
 .main {
@@ -183,6 +206,7 @@ header .menu .search .borderh {
   flex-direction: column;
   height: 100vh;
   width: 100vw;
+  padding: 10%;
   background-image: url("./img/header.jpg");
 }
 
@@ -208,7 +232,7 @@ h2 {
   gap: 2rem;
 }
 .nous .flexcol .rem3 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #007F7F;
 }
 .nous img {
@@ -218,6 +242,64 @@ h2 {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
+.carte {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  color: #ffffff;
+  padding-top: 5%;
+  padding-bottom: 15%;
+  background-image: url("./img/Burgers.png");
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-size: cover;
+}
+.carte .flexcol {
+  margin-top: 2%;
+  gap: 2rem;
+}
+.carte .flexcol .rem3 {
+  font-size: 2rem;
+}
+
+.pret {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+}
+.pret .flexcol {
+  margin-top: 2%;
+  gap: 2rem;
+}
+.pret .flexcol .rem3 {
+  font-size: 2rem;
+  color: #007F7F;
+}
+
+.jungle {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  color: #ffffff;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-image: url("./img/Jungle.png");
+}
+.jungle .flexcol {
+  margin-top: 2%;
+  gap: 2rem;
+}
+.jungle .flexcol .rem3 {
+  font-size: 2rem;
+}
+.jungle img {
+  width: 40%;
+  border-radius: 5px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  object-fit: contain;
+}
+
 .menumain {
   background-color: black;
   width: 100vw;
@@ -225,22 +307,58 @@ h2 {
   display: flex;
   text-align: center;
   align-items: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  object-fit: contain;
+  background-position: center;
+  background-size: cover;
 }
 .menumain h1 {
   margin: 0 auto;
 }
 
-.carte {
+.carte2 {
   display: flex;
-  height: 1000px;
+  height: auto;
   width: 100vw;
 }
-.carte .carteadmin {
-  background: #ECECEC;
-  width: 22%;
+.carte2 .carteadmin {
+  background: #fdf6e8;
+  margin: 20px;
+  width: 25%;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
-.carte .carteinfo {
-  background-color: white;
+.carte2 .carteadmin .espace {
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.carte2 .carteadmin .espace .cr {
+  color: #007F7F;
+  font-size: 2.5rem;
+  cursor: pointer;
+  transition: 1s;
+}
+.carte2 .carteadmin .espace .cr:hover {
+  font-size: 2.8rem;
+  transition: 1s;
+}
+.carte2 .carteadmin .espace .trait {
+  height: 2px;
+  background-color: black;
+}
+.carte2 .carteadmin .espace .choix {
+  color: #007F7F;
+  transition: 1s;
+  cursor: pointer;
+}
+.carte2 .carteadmin .espace .choix:hover {
+  font-size: 1.2rem;
+  transition: 1s;
+}
+.carte2 .carteinfo {
   width: 78%;
 }
 
