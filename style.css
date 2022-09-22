@@ -123,7 +123,14 @@ footer .footer_upper {
   align-items: center;
   color: white;
   text-align: center;
-  gap: 10%;
+  gap: 8%;
+  position: relative;
+}
+footer .footer_upper img {
+  position: absolute;
+  width: 77px;
+  top: 30px;
+  left: 40px;
 }
 footer .footer_upper h3 {
   font-size: 20px;
@@ -145,13 +152,12 @@ footer .footer_upper div:nth-child(3) {
   position: relative;
 }
 footer .footer_upper section {
-  position: absolute;
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: row-reverse;
-  bottom: 50px;
+  margin-top: 10px;
 }
 footer .footer_upper section i {
   font-size: 44px;
