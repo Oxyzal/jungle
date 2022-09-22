@@ -2,19 +2,24 @@
 
 @mixin main_color() {
   color: #017C7C;
+  background-color: #017C7C;
 }
 
 @mixin secondary_color() {
   color: #96694B;
+  background-color: #96694B;
 }
 
 @mixin third_color() {
   color: #FFE8C1;
+  background-color: #FFE8C1;
+  
 }
 
 
 @mixin black() {
   color: #130E12;
+  background-color: #130E12;
 }
 
 
