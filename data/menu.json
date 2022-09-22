@@ -1,0 +1,19 @@
+[
+    {
+        "title":"A PARTAGER",
+        "name": "PLANCHE TAPAS",
+        "price": "17.00",
+        "desc": "beignets de calamars, nems de poulet, bouchées de Camembert, sticks de mozzarella et onion rings"
+    },
+    {
+        "title":"Viandes",
+        "soustitle":"Les classiques",
+        "name": "LES CLASSIQUES",
+        "price": "17.00",
+        "desc": "Mojito, Caïpirinha, Apérol ou Campari ou Saint Germain ou Limoncello Spritz, Moscow Mule,Spritz breton (Martini rosé, citron vert, cidre, perrier), Suze bull Black / White Russian, Cosmopolitan, Sour's (whisky, amaretto, pisco), Old Fashioned, Manhattan"
+    },
+    {
+        "name": "Le poisson",
+        "price": "17.00" 
+    }
+]
