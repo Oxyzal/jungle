@@ -35,7 +35,7 @@ h2{
     margin-top: 2%;
     gap: 2rem;
     .rem3{
-      font-size: 3rem;
+      font-size: 2rem;
       color: $primary2;
     }
   }
@@ -45,4 +45,62 @@ h2{
     object-fit: contain;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
+}
+
+.carte{
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  color: $white;
+  padding-top: 5%;
+  padding-bottom: 15%;
+  .flexcol{
+    margin-top: 2%;
+    gap: 2rem;
+    .rem3{
+      font-size: 2rem;
+
+    }
+  }
+  background-image: url('./img/Burgers.png');
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-size:cover;
+}
+
+.pret{
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  .flexcol{
+    margin-top: 2%;
+    gap: 2rem;
+    .rem3{
+      font-size: 2rem;
+      color: $primary2;
+    }
+  }
+}
+
+.jungle{
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  color: $white;
+  .flexcol{
+    margin-top: 2%;
+    gap: 2rem;
+    .rem3{
+      font-size: 2rem;
+
+    }
+  }
+  img{
+    width: 40%;
+    border-radius: 5px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    object-fit: contain;
+  }
+  background-image: url('./img/Jungle.png');;
 }

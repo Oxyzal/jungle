@@ -202,7 +202,7 @@ h2 {
   gap: 2rem;
 }
 .nous .flexcol .rem3 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #007F7F;
 }
 .nous img {
@@ -210,6 +210,62 @@ h2 {
   border-radius: 5px;
   object-fit: contain;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.carte {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  color: #ffffff;
+  padding-top: 5%;
+  padding-bottom: 15%;
+  background-image: url("./img/Burgers.png");
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-size: cover;
+}
+.carte .flexcol {
+  margin-top: 2%;
+  gap: 2rem;
+}
+.carte .flexcol .rem3 {
+  font-size: 2rem;
+}
+
+.pret {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+}
+.pret .flexcol {
+  margin-top: 2%;
+  gap: 2rem;
+}
+.pret .flexcol .rem3 {
+  font-size: 2rem;
+  color: #007F7F;
+}
+
+.jungle {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  color: #ffffff;
+  background-image: url("./img/Jungle.png");
+}
+.jungle .flexcol {
+  margin-top: 2%;
+  gap: 2rem;
+}
+.jungle .flexcol .rem3 {
+  font-size: 2rem;
+}
+.jungle img {
+  width: 40%;
+  border-radius: 5px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  object-fit: contain;
 }
 
 /*# sourceMappingURL=style.css.map */
