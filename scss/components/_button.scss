@@ -11,3 +11,24 @@
     color: $secondary;
     border: $secondary 3px solid;
 }
+.blanc{
+    color: $white;
+    border: $white 3px solid;
+}
+.bleu{
+    color: $primary2;
+    border: $primary2 3px solid;
+}
+
+.btnheader{
+    margin: 10%;
+    text-align: -webkit-right;
+}
+
+.btn{
+    place-self: self-end;
+  }
+  .btn2{
+    place-self: center;
+  
+  }
