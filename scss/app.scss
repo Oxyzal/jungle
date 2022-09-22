@@ -3,13 +3,10 @@
 
 @import 'base/reset',
         'base/fonts',
-        'base/base',
-        'base/commons';
+        'base/base';
 
 @import 'components/header',
-        'components/footer',
-        'components/cards',
-        'components/form';
+        'components/footer';
 
 @import 'pages/index',
         'pages/projects';
