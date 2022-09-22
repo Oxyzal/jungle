@@ -1,0 +1,36 @@
+header{
+  position: absolute;
+  z-index: 3;
+  .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1%;
+    width: 100vw;
+    .logo{
+      width: 77px;
+    }
+    .search{
+      align-items: center;
+      width: 25%;
+      margin-right: 10%;
+      display: flex;
+      justify-content: space-between;
+      a{
+        color: $white;
+      }
+    }
+  }
+}
+
+
+
+.bar{
+  width: auto;
+  display: flex;
+  gap: 3rem;
+  margin-right: 10%;
+  font-size: 1rem;
+  align-items: center;
+}
+

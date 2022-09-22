@@ -49,9 +49,15 @@ table {
   outline: none;
 }
 
+@font-face {
+  font-family: "Swistblnk Monthoers Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Swistblnk Monthoers Regular"), url("Monthoers.woff") format("woff");
+}
 :root {
   font-size: 24px;
-  font-family: "Comfortaa", sans-serif;
+  font-family: "Swistblnk Monthoers Regular";
 }
 @media screen and (max-width: 700px) {
   :root {
@@ -106,6 +112,40 @@ section {
   }
 }
 
+header {
+  position: absolute;
+  z-index: 3;
+}
+header .menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1%;
+  width: 100vw;
+}
+header .menu .logo {
+  width: 77px;
+}
+header .menu .search {
+  align-items: center;
+  width: 25%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+header .menu .search a {
+  color: #ffffff;
+}
+
+.bar {
+  width: auto;
+  display: flex;
+  gap: 3rem;
+  margin-right: 10%;
+  font-size: 1rem;
+  align-items: center;
+}
+
 .button {
   background-color: transparent;
   padding: 16px;
@@ -118,60 +158,34 @@ section {
 
 .jaune {
   color: #ffe8c1;
-  border-color: #ffe8c1;
+  border: #ffe8c1 3px solid;
 }
 
-.absolute {
-  position: absolute;
-  z-index: -1;
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
   background-repeat: no-repeat;
   background-attachment: fixed;
   object-fit: contain;
   background-position: center;
   background-size: cover;
-  display: flex;
   flex-direction: column;
-}
-
-.black {
-  background-color: #282828;
-  z-index: 1;
   height: 100vh;
   width: 100vw;
   background-image: url("./img/header.jpg");
-  filter: brightness(0.5);
-}
-
-.menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 2%;
-}
-
-nav {
-  color: #ffffff;
-  display: contents;
-}
-
-.logo {
-  width: 8%;
 }
 
 h1 {
-  color: #017C7C;
-  font-size: 80px;
-  font-weight: 600;
-  width: 75%;
-  text-align: center;
+  color: #04C9C9;
+  font-size: 3.7rem;
+  font-weight: 400;
 }
 
 h2 {
   color: #FFE8C1;
-  font-size: 25px;
-  font-weight: 600;
-  text-align: center;
-  width: 65%;
+  font-size: 2rem;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=style.css.map */
