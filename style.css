@@ -73,7 +73,6 @@ html {
 body {
   width: 100vw;
   height: auto;
-  display: flex;
   flex-direction: column;
   gap: 120px;
   background-color: #FFFAF1;
@@ -140,6 +139,9 @@ header .menu .search {
 header .menu .search a {
   color: #ffffff;
 }
+header .menu .search .borderh {
+  border-bottom: #04c9c9 2px solid;
+}
 
 .bar {
   width: auto;
@@ -158,6 +160,10 @@ header .menu .search a {
   gap: 1em;
   width: max-content;
   border: 1px solid;
+  align-items: center;
+}
+.button p {
+  margin-bottom: 5px;
 }
 
 .jaune {
@@ -210,6 +216,32 @@ h2 {
   border-radius: 5px;
   object-fit: contain;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.menumain {
+  background-color: black;
+  width: 100vw;
+  height: 40vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.menumain h1 {
+  margin: 0 auto;
+}
+
+.carte {
+  display: flex;
+  height: 1000px;
+  width: 100vw;
+}
+.carte .carteadmin {
+  background: #ECECEC;
+  width: 22%;
+}
+.carte .carteinfo {
+  background-color: white;
+  width: 78%;
 }
 
 /*# sourceMappingURL=style.css.map */

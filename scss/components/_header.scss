@@ -19,6 +19,9 @@ header{
       a{
         color: $white;
       }
+      .borderh{
+        border-bottom: $primary 2px solid;
+      }
     }
   }
 }
