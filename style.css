@@ -113,6 +113,12 @@ section {
   display: flex;
   gap: 1em;
   width: max-content;
+  border: 1px solid;
+}
+
+.jaune {
+  color: #ffe8c1;
+  border-color: #ffe8c1;
 }
 
 .absolute {
