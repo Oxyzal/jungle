@@ -1,0 +1,36 @@
+.absolute{
+  position:absolute;
+  z-index: -1;
+  
+}
+.black{
+  background-color: $black;
+  z-index: 1;
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2%;
+}
+nav{
+  color: $white;
+  display: contents;
+}
+.logo{
+  width: 8%;
+}
+h1{
+  @include main_color;
+  font-size: 80px;
+  font-weight: 600;
+  width: 75%;
+  text-align: center;
+}
+h2{
+  @include third_color;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  width: 65%;
+}
