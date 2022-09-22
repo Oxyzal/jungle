@@ -50,7 +50,7 @@ table {
 }
 
 :root {
-  font-size: 16px;
+  font-size: 24px;
   font-family: "Comfortaa", sans-serif;
 }
 @media screen and (max-width: 700px) {
@@ -70,7 +70,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 120px;
-  background-color: #f4f5f8;
+  background-color: #fafaf1;
   overflow-x: hidden;
 }
 @media screen and (max-width: 1024px) {
@@ -89,7 +89,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #525ecc;
+  background-color: #04c9c9;
   border-radius: 100px;
 }
 
@@ -105,6 +105,15 @@ section {
     justify-content: center !important;
     padding: 32px;
   }
+}
+
+.button {
+  background-color: transparent;
+  padding: 16px;
+  width: min-content;
+  display: flex;
+  gap: 1em;
+  width: max-content;
 }
 
 /*# sourceMappingURL=style.css.map */
