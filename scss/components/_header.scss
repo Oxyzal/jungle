@@ -7,6 +7,8 @@ header{
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    margin: 2%;
+
     .logo{
       width: 77px;
     }
@@ -35,7 +37,8 @@ header{
 
       }
       .borderh{
-        
+          padding: 15px 20px;
+
           letter-spacing: 0.1em;
           position: relative;
         

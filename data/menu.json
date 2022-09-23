@@ -1,18 +1,30 @@
 [
     {
+<<<<<<< HEAD
         "title":"plats-du-jour",
+=======
+        "title":"Plats-du-jour",
+>>>>>>> 2de8d2025f7320d459cd2038146a49edb2f92c0b
         "name": "STEAK DE THON AU GUACAMOLE",
         "price": "18.50 €",
         "desc":"houmous de carottes et chips de carottes"
     },
     {
+<<<<<<< HEAD
         "title":"plats-du-jour",
+=======
+        "title":"Plats-du-jour",
+>>>>>>> 2de8d2025f7320d459cd2038146a49edb2f92c0b
         "name": "SOURIS D AGNEAU GRATIN DE POMMES DE TERRE",
         "price": "19,00 €"
         
     },
     {
+<<<<<<< HEAD
         "title":"plats-du-jour",
+=======
+        "title":"Plats-du-jour",
+>>>>>>> 2de8d2025f7320d459cd2038146a49edb2f92c0b
         "name": "FILET DE LIEU NOIR EN CROÛTE DE PARMESAN",
         "price": "18.50",
         "desc":"Clafoutis de courgettes au chorizo"
