@@ -125,10 +125,11 @@ header .menu {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  margin: 2%;
 }
 header .menu .logo {
   width: 77px;
+  margin-left: 2vw;
+  margin-top: 2vw;
 }
 header .menu .search {
   align-items: center;
@@ -157,7 +158,6 @@ header .menu .search a {
   }
 }
 header .menu .search .borderh {
-  padding: 15px 20px;
   letter-spacing: 0.1em;
   position: relative;
 }
@@ -419,12 +419,12 @@ footer .footer_lower {
 
 h1 {
   color: #007F7F;
-  font-size: 7.7rem;
+  font-size: 9vw;
   font-weight: 400;
 }
 @media screen and (max-width: 700px) {
   h1 {
-    font-size: 17.7vw;
+    font-size: 16vw;
   }
 }
 
@@ -672,7 +672,7 @@ ul {
   margin-right: 15px;
 }
 
-ul li {
+ul a {
   padding: 10px 10px 10px 10px;
 }
 

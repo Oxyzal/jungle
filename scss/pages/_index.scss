@@ -12,6 +12,7 @@
   width: 100vw;
   padding: 10%;
   background-image: url('./img/header.jpg');
+  
 
   @include for-mobiles{
     align-content: center;
@@ -29,11 +30,11 @@
 
 h1{
   color: $primary2;
-  font-size: 7.7rem;
+  font-size: 9vw;
   font-weight: 400;
 
   @include for-mobiles{
-    font-size: 17.7vw;
+    font-size: 16vw;
   }
 
 }
