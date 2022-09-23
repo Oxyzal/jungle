@@ -1,0 +1,77 @@
+.navContact{
+
+    background-color:#FFFAF1 ;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 2px 1px;
+    
+  }
+   
+  ul{
+  
+    display: flex;
+    padding: 0;
+    margin-right: 15px;
+    
+  }
+  ul li{
+  
+    padding: 10px 10px 10px 10px;
+  }
+  
+  
+  .logoContact{
+    width: 50px;
+    margin: 5px 0 5px 10px;
+  }
+  .contact{
+  
+    background-color:#582900 ;
+    display: inline;
+  }
+  
+  .nousContacter{
+  
+    text-align: center;
+    margin: 150px 0px 50px 0px;
+    
+  }
+  
+  input{
+    padding: 16px;
+  }
+  
+  .formulaire{
+  
+    text-align: center;
+    
+  }
+  
+  .premiere{
+    margin: 20px;
+  }
+  
+  .deuxieme{
+    margin: 20px;
+  }
+  
+  textarea{
+    padding: 16px;
+  }
+  
+  #buttonContact{
+    margin-left: 685px;
+    margin-top: 10px;
+  }
+  
+  button{
+  
+    background-color: #FFE8C1;
+    border: none;
+    color: #582900;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
