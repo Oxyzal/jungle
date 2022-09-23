@@ -38,10 +38,10 @@
                 color: $primary2;
                 font-size: 2.5rem;
                 cursor: pointer;
-                transition: 1s;
+                transition: 0.3s;
             }.cr:hover{
                 font-size: 2.8rem;
-                transition: 1s;
+                transition: 0.3s;
             }
             .trait{
                 height: 2px;
@@ -49,11 +49,11 @@
             }
             .choix{
                 color: $primary2;
-                transition: 1s;
+                transition: 0.3s;
                 cursor: pointer;
             }.choix:hover{
                 font-size: 1.2rem;
-                transition: 1s;
+                transition: 0.3s;
             }
         }
         
