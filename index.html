@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/0961a08f8a.js" crossorigin="anonymous"></script>
     <title>Homepage</title>
 </head>
@@ -31,11 +32,11 @@
     </section>
     
     <section class="nous">
-        <div class="flexcol w1-3">
+        <div data-aos="fade-right" class="flexcol w1-3">
             <h3 class="rem3">Qui sommes-nous ?</h3>
             <p>Bienvenue au Jungle Arch, le bar-restaurant convivial ! Ouvert de 7h30 a 00h00, nous saurons vous accueillir tout au long de le journee pour vous apporter une ambiance chaleureuse et des plats varies (Burger, Bobun, Tartare de boeuf...).</p>
         </div>
-        <img src="img/1st_section.jpg" alt="">
+        <img data-aos="fade-left" src="img/1st_section.jpg" alt="">
     </section>
 
     <section class="carte">
@@ -44,7 +45,7 @@
             <p>Venez decouvrir nos succulents plats faits maison !</p>
         </div>
         <div class="btn">
-            <a href="menu.html" class="button jaune"><p> Voir la carte</p> <i class="fas fa-arrow-right"></i></a>
+            <a class="button jaune"><p> Voir la carte</p> <i class="fas fa-arrow-right"></i></a>
             
         </div>
 
@@ -55,7 +56,7 @@
             <a class="button bleu"><p> Reserver</p> <i class="fas fa-arrow-right"></i></a>
             
         </div>
-        <div class="flexcol w1-3">
+        <div data-aos="flip-right" class="flexcol w1-3">
             <h3 class="rem3">Etes-vous partants ?</h3>
             <p>La restauration se fait sur place, sur reservation, pour nous permettre de vous accueillir rapidement et efficacement ! Il y a egalement de la vente a emporter pour nous permettre de vous accompagner jusqu’a chez vous.</p>
         </div>
@@ -108,5 +109,9 @@
     
     
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 <script type="module" src="js/main.js"></script>
 </html>
