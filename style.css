@@ -94,7 +94,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #04c9c9;
+  background-color: rgb(4, 201, 201);
   border-radius: 100px;
 }
 
@@ -316,8 +316,8 @@ footer .footer_lower {
 }
 
 .jaune {
-  color: #ffe8c1;
-  border: #ffe8c1 3px solid;
+  color: rgb(255, 232, 193);
+  border: rgb(255, 232, 193) 3px solid;
   overflow: hidden;
   z-index: 1;
   transition: all 0.2s linear;
@@ -338,7 +338,7 @@ footer .footer_lower {
   transition: all 0.2s linear;
 }
 .jaune:hover {
-  color: #ffe8c1;
+  color: rgb(255, 232, 193);
   background-color: #282828;
 }
 .jaune:hover::before {
@@ -429,7 +429,7 @@ h1 {
 }
 
 h2 {
-  color: #ffe8c1;
+  color: rgb(255, 232, 193);
   font-size: 2.8rem;
   font-weight: 400;
   padding-left: 15px;
