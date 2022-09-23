@@ -311,23 +311,60 @@ footer .footer_lower {
   border: 1px solid;
   align-items: center;
 }
-.button p {
-  margin-bottom: 10px;
-}
 
 .jaune {
   color: #ffe8c1;
   border: #ffe8c1 3px solid;
+  overflow: hidden;
+  z-index: 1;
+  transition: all 0.2s linear;
 }
-
-.blanc {
-  color: #ffffff;
-  border: #ffffff 3px solid;
+.jaune::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #282828;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  transform: translateX(-180px);
+  transition: all 0.2s linear;
+}
+.jaune:hover {
+  color: #ffe8c1;
+  background-color: #282828;
+}
+.jaune:hover::before {
+  transform: translateX(0);
 }
 
 .bleu {
   color: #007F7F;
   border: #007F7F 3px solid;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: all 0.2s linear;
+}
+.bleu::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #007F7F;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  transform: translateX(-180px);
+  transition: all 0.2s linear;
+}
+.bleu:hover {
+  color: #ffffff;
+  background-color: #007F7F;
+}
+.bleu:hover::before {
+  transform: translateX(0);
 }
 
 .btnheader {
