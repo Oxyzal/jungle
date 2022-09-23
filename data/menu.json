@@ -121,6 +121,18 @@
         "name": "CHICKEN BURGER",
         "price": "18,50 €",
         "desc":"aiguillettes de poulet panées, salade, tomates, chèvre, avocat, pesto, crème, frites maison coupées au couteau et mesclun"
+    },
+    {
+        "title":"Burgers",
+        "name": "VEGGIE BURGER",
+        "price": "18,00 €",
+        "desc":"galette de patates douces maison, salade, tomates, compotée d'oignons, guacamole sauce sweet chili, frites maison coupées au couteau et mesclun"
+    },
+    {
+        "title":"Burgers",
+        "name": "JUNGLE ARCH",
+        "price": "18,50 €",
+        "desc":"bœuf haché VBF, bacon, cheddar, tomates, compotée d'oignons, frites maison coupées au couteau et mesclun"
     }
 
 
