@@ -154,8 +154,26 @@ header .menu .search a {
     font-size: 5vw;
   }
 }
-header .menu .search .borderh:hover {
-  border-bottom: #04c9c9 2px solid;
+header .menu .search .borderh {
+  letter-spacing: 0.1em;
+  padding: 15px 20px;
+  position: relative;
+}
+header .menu .search .borderh::after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #007F7F;
+  transition: width 0.2s ease 0s, left 0.2s ease 0s;
+  width: 0;
+}
+header .menu .search .borderh:hover:after {
+  width: 100%;
+  left: 0;
 }
 
 .bar {
