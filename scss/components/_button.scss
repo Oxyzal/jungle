@@ -1,19 +1,23 @@
 .button{
     background-color: transparent;
-    padding: 16px;
+    padding: 16px 32px;
     width: min-content;
     display: flex;
     gap: 1em;
     width: max-content;
     border: 1px solid;
     align-items: center;
+    cursor: pointer;
     p{
-        margin-bottom: 10px;
+        
     }
 }
 .jaune{
     color: $secondary;
     border: $secondary 3px solid;
+    p{
+        margin-bottom: 5px;
+    }
 }
 .blanc{
     color: $white;

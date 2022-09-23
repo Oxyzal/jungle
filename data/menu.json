@@ -1,232 +1,232 @@
 [
     {
-        "title":"Plats du jour",
+        "title":"plats du jour",
         "name": "STEAK DE THON AU GUACAMOLE",
         "price": "18.50 €",
         "desc":"houmous de carottes et chips de carottes"
     },
     {
-        "title":"Plats du jour",
+        "title":"plats du jour",
         "name": "SOURIS D AGNEAU GRATIN DE POMMES DE TERRE",
         "price": "19,00 €"
         
     },
     {
-        "title":"Plats du jour",
+        "title":"plats du jour",
         "name": "FILET DE LIEU NOIR EN CROÛTE DE PARMESAN",
         "price": "18.50",
         "desc":"Clafoutis de courgettes au chorizo"
     },
     {
-        "title":"Desserts du jour",
+        "title":"desserts du jour",
         "name": "GÂTEAU TOUT CHOCOLAT,GLAÇAGE ROCHER COCO AMANDE",
         "price": "7,50 €"
     },
     {
-        "title":"A PARTAGER",
+        "title":"a partager",
         "name": "PLANCHE TAPAS",
         "price": "20,00 €",
         "desc":"beignets de calamars, nems de poulet, bouchées de Camembert, sticks de mozzarella et onion rings"
     },
     {
-        "title":"A PARTAGER",
+        "title":"a partager",
         "name": "PLANCHE CHARCUTERIE, FROMAGES OU MIXTE",
         "price": "20,00 €"
     },
     {
-        "title":"A PARTAGER",
+        "title":"a partager",
         "name": "ASSIETTE DE FRITES MAISON",
         "price": "5,50 €"
     },
     {
-        "title":"A PARTAGER",
+        "title":"a partager",
         "name": "PLANCHE VEGGIE",
         "price": "20,00 €",
         "desc":"houmous maison, crudités, crème ciboulette, galette patates douces"
     },
     {
-        "title":"SALADES",
+        "title":"salades",
         "name": "LA CESAR",
         "price": "17,50 €",
         "desc":"poulet croustillant, salade romaine, croûtons, copeaux de parmesan, œuf, tomates et véritable sauce cæsar"
     },
     {
-        "title":"SALADES",
+        "title":"salades",
         "name": "TARTARE DE MELON ET JAMBON SERRANO",
         "price": "17,50 €",
         "desc":"mesclun, roquette, tomates, parmesan"
     },
     {
-        "title":"SALADES",
+        "title":"salades",
         "name": "GREEN BOWL",
         "price": "18,00 €",
         "desc":"kiwi, avocat, concombre, courgettes, tomates vertes, fêta marinée aux herbes, graines de courge, vinaigrette au kiwi"
     },
     {
-        "title":"SALADES",
+        "title":"salades",
         "name": "ANTIPASTI",
         "price": "18,00 €",
         "desc":"courgettes, aubergines, poivrons, artichauts marinés, tomates, câpres à queue, pignons de pin, mozzarelle di buffala"
     },
     {
-        "title":"SALADES",
+        "title":"salades",
         "name": "POKE BOWL THON",
         "price": "18,50 €",
         "desc":"(version vegan 17.00€) thon, avocat, radis, edamame, carottes, concombre, mangue, tomates, riz vinaigré"
     },
     {
-        "title":"SALADES",
+        "title":"salades",
         "name": "SALADE DE CHÈVRE",
         "price": "18,50 €",
         "desc":"billes de chèvre frais aux fruits secs, poitrine de cochon grillée, tomates, mesclun, pommes Granny Smith, vinaigrette au miel"
     },
     {
-        "title":"PLATS",
+        "title":"plats",
         "name": "TARTARE DE BŒUF VBF À L'ITALIENNE",
         "price": "19,00 €",
         "desc":"parmesan, tomates confites, pesto, roquette, câpres à queue, pignons de pin, servi avec un bol de frites maison coupées au couteau"
     },
     {
-        "title":"PLATS",
+        "title":"plats",
         "name": "BOBUN CREVETTES",
         "price": "18,50 €",
         "desc":"vermicelle de riz, carottes, concombre, tomates cerises, nems crevettes, romaine, menthe, coriandre, crevettes marinées, cacahuètes, soja, sauce nuoc mam"
     },
     {
-        "title":"PLATS",
+        "title":"plats",
         "name": "FISH & CHIPS",
         "price": "17,50 €",
         "desc":"filet de julienne en tempura, frites maison coupées au couteau et sauce tartare maison"
     },
     {
-        "title":"PLATS",
+        "title":"plats",
         "name": "PIÈCE DU BOUCHER (SELON ARRIVAGE ENVIRON 200GR)",
         "price": "17,50 €",
         "desc":"sauce pipirrana (sauce vierge basque), duo de frites (patates douces et pommes de terre)"
     },
     {
-        "title":"PLATS",
+        "title":"plats",
         "name": "BO BUN",
         "price": "18,50 €",
         "desc":"émincé de bœuf, nems de poulet, vermicelles de riz, pousses de soja, salade, cacahuètes, carottes, menthe, coriandre et concombres"
     },
     {
-        "title":"PLATS",
+        "title":"plats",
         "name": "TATAKI DE THON",
         "price": "18,50 €",
         "desc":"wok de légumes et vinaigrette sésame soja"
     },
     {
-        "title":"Burgers",
+        "title":"burgers",
         "name": "CHICKEN BURGER",
         "price": "18,50 €",
         "desc":"aiguillettes de poulet panées, salade, tomates, chèvre, avocat, pesto, crème, frites maison coupées au couteau et mesclun"
     },
     {
-        "title":"Burgers",
+        "title":"burgers",
         "name": "VEGGIE BURGER",
         "price": "18,00 €",
         "desc":"galette de patates douces maison, salade, tomates, compotée d'oignons, guacamole sauce sweet chili, frites maison coupées au couteau et mesclun"
     },
     {
-        "title":"Burgers",
+        "title":"burgers",
         "name": "JUNGLE ARCH",
         "price": "18,50 €",
         "desc":"bœuf haché VBF, bacon, cheddar, tomates, compotée d'oignons, frites maison coupées au couteau et mesclun"
     },
     {
-        "title":"Burgers",
+        "title":"burgers",
         "name": "BURGER BASQUE",
         "price": "18,50 €",
         "desc":"bœuf haché VBF, sauce poivrons, chorizo, fromage de brebis, tomates, oignons"
     },
     {
-        "title":"Burgers",
+        "title":"burgers",
         "name": "L'AUVERGNAT BURGER",
         "price": "18,50 €",
         "desc":"bœuf haché VBF, crème au bleu d'auvergne, Saint-Nectaire fermier, salade, tomate et compotée d'oignons, frites maison coupées au couteau et mesclun"
     },
     {
-        "title":"Burgers",
+        "title":"burgers",
         "name": "BURGER AU SAUMON",
         "price": "18,50 €",
         "desc":"escalope de saumon, avocat, sauce aigre douce, salade, oignons caramélisés, frites maison coupées au couteau et mesclun"
     },
     {
-        "title":"DESSERTS",
+        "title":"desserts",
         "name": "MOELLEUX CHOCOLAT CŒUR CARAMEL",
         "price": "8,00 €"
     },
     {
-        "title":"DESSERTS",
+        "title":"desserts",
         "name": "TIRAMISU AU NUTELLA, OU PAS !",
         "price": "8,50 €"
     },
     {
-        "title":"DESSERTS",
+        "title":"desserts",
         "name": "CAFÉ GOURMAND",
         "price": "8,50 €"
     },
     {
-        "title":"DESSERTS",
+        "title":"desserts",
         "name": "DESSERT DU JOUR",
         "price": "7,50 €"
     },
     {
-        "title":"DESSERTS",
+        "title":"desserts",
         "name": "THÉ GOURMAND",
         "price": "9,50 €"
     },
     {
-        "title":"DESSERTS",
+        "title":"desserts",
         "name": "TARTARE DE FRUITS FRAIS AU BASILIC",
         "price": "8,00 €"
     },
     {
-        "title":"DESSERTS",
+        "title":"desserts",
         "name": "TIRAMISU EXOTIQUE",
         "price": "8,50 €"
     },
     {
-        "title":"HAPPY HOUR",
+        "title":"happy hour",
         "name": "MARGUERITE, GROLSCH WEIZEN ( BLANCHE), CIDRE (VALDERANCE) 50cl",
         "price": "7,00 €"
     },
     {
-        "title":"HAPPY HOUR",
+        "title":"happy hour",
         "name": "JUNGLE BEER 50cl",
         "price": "6,00 €"
     },
     {
-        "title":"HAPPY HOUR",
+        "title":"happy hour",
         "name": "VINS 14cl",
         "price": "4,50 €",
         "desc":"Chardonnay ou Côtes du Rhône ou Rosé Corse"
     },
     {
-        "title":"HAPPY HOUR",
+        "title":"happy hour",
         "name": "COUPE DE CHAMPAGNE AOC 10cl",
         "price": "7,00 €"
     },
     {
-        "title":"HAPPY HOUR",
-        "name": "COCKTAILS",
+        "title":"happy hour",
+        "name": "cocktails",
         "price": "7,00 €",
         "desc":"Apérol Spritz, Mojito, Caïpirinha, Moscow Mule"
     },
     {
-        "title":"HAPPY HOUR",
-        "name": "COCKTAILS SANS ALCOOL 20cl",
+        "title":"happy hour",
+        "name": "cocktails SANS alcool 20cl",
         "price": "6,00 €",
         "desc":"Virgin Mojito, jungle lion"
     },
     {
-        "title":"HAPPY HOUR",
+        "title":"happy hour",
         "name": "SAINT STEPHANUS (ABBAYE), MARGUERITE (IPA)",
         "price": "7,00 €"
     },
     {
-        "title":"LES VINS",
+        "title":"les vins",
         "souscat":"Vins Rouges",
         "name": "RHÔNE",
         "price": "7,00 €",
@@ -235,14 +235,14 @@
         "desc":"IGP Collines Rhodaniennes"
     },
     {
-        "title":"LES VINS",
+        "title":"les vins",
         "souscat":"Vins Rouges",
         "name": "RHÔNE",
         "price": "39,00 €",
         "desc":"Crozes-Hermitage Les Galets"
     },
     {
-        "title":"LES VINS",
+        "title":"les vins",
         "souscat":"Vins Rouges",
         "name": "BORDEAUX",
         "price": "6,00 €",
@@ -251,7 +251,7 @@
         "desc":"Médoc Pépin d'Escurac"
     },
     {
-        "title":"LES VINS",
+        "title":"les vins",
         "souscat":"Vins Rouges",
         "name": "BOURGUEIL",
         "price": "6,50 €",
@@ -260,7 +260,7 @@
         "desc":"Côte 50 Y. Amirault"
     },
     {
-        "title":"LES VINS",
+        "title":"les vins",
         "souscat":"Vins Rouges",
         "name": "VIN DU MONDE",
         "price": "5,90 €",
@@ -269,7 +269,7 @@
         "desc":"Chili Carmenere El Grano"
     },
     {
-        "title":"LES VINS",
+        "title":"les vins",
         "name": "LANGUEDOC ROUSSILLON",
         "souscat":"Vins blancs",
         "price": "5,20 €",
@@ -278,7 +278,7 @@
         "desc":"Côtes catalanes Chardonnay"
     },
     {
-        "title":"LES VINS",
+        "title":"les vins",
         "souscat":"Vins blancs",
         "name": "LOIRE",
         "price": "6,50 €",
@@ -287,14 +287,14 @@
         "desc":"Orléans - Clos Saint fiacre"
     },
     {
-        "title":"LES VINS",
+        "title":"les vins",
         "souscat":"Vins blancs",
         "name": "LOIRE",
         "price": "39,00 €",
         "desc":"Sancerre - Lucien Crochet"
     },
     {
-        "title":"LES VINS",
+        "title":"les vins",
         "souscat":"Vins rosés",
         "name": "CORSE",
         "price": "5,20 €",
@@ -303,7 +303,7 @@
         "desc":"IGP de l'Ile de Beauté, Casa Rossa"
     },
     {
-        "title":"LES VINS",
+        "title":"les vins",
         "souscat":"Vins rosés",
         "name": "PROVENCE",
         "price": "6,50 €",
@@ -312,143 +312,143 @@
         "desc":"Coteaux de Varois en Provence Terre du Loou (bio)"
     },
     {
-        "title":"LES VINS",
+        "title":"les vins",
         "souscat":"Champagne",
         "name": "CHAMPAGNE AOC",
         "price": "70,00 €",
         "desc":"Gremillet (blanc de noirs)"
     },
     {
-        "title":"COCKTAILS",
+        "title":"cocktails",
         "souscat":"Les Classiques",
         "name": "LES CLASSIQUES",
         "price": "9,50 €",
         "desc":"Mojito, Caïpirinha, Apérol ou Campari ou Saint Germain ou Limoncello Spritz, Moscow Mule,Spritz breton (Martini rosé, citron vert, cidre, perrier), Suze bull Black / White Russian, Cosmopolitan, Sour's (whisky, amaretto, pisco), Old Fashioned, Manhattan"
     },
     {
-        "title":"COCKTAILS",
-        "souscat":"Jungle Cocktails",
+        "title":"cocktails",
+        "souscat":"Jungle cocktails",
         "name": "CUCUMBER ALE",
         "price": "10,50 €",
         "desc":"gin (5cl), citron vert (3cl), menthe fraîche, ginger beer, concombre"
     },
     {
-        "title":"COCKTAILS",
-        "souscat":"Jungle Cocktails",
+        "title":"cocktails",
+        "souscat":"Jungle cocktails",
         "name": "LE CLÉMENCE",
         "price": "10,50 €",
         "desc":"rhum blanc, rhum ambré, citron vert, jus de passion, jus de cranberry"
     },
     {
-        "title":"COCKTAILS",
-        "souscat":"Jungle Cocktails",
+        "title":"cocktails",
+        "souscat":"Jungle cocktails",
         "name": "RAMÈNE TA FRAISE",
         "price": "10,50 €",
         "desc":"vodka (4cl), liqueur de sureau (2cl), jus de fraise, citron vert, menthe fraîche"
     },
     {
-        "title":"COCKTAILS",
-        "souscat":"Jungle Cocktails",
+        "title":"cocktails",
+        "souscat":"Jungle cocktails",
         "name": "ORANGE MECANIC",
         "price": "10,50 €",
         "desc":"tequila (4cl), orange fraîche, menthe fraîche, jus de maracuja"
     },
     {
-        "title":"COCKTAILS",
+        "title":"cocktails",
         "souscat":"Sans alcool",
         "name": "VIRGIN MOJITO",
         "price": "7,50 € €"
     },
     {
-        "title":"COCKTAILS",
+        "title":"cocktails",
         "souscat":"Sans alcool",
         "name": "JUNGLE LION",
         "price": "7,50 €",
         "desc":"ananas, maracuja, cranberry"
     },
     {
-        "title":"COCKTAILS",
+        "title":"cocktails",
         "souscat":"Sans alcool",
         "name": "SO FRESH",
         "price": "7,50 €",
         "desc":"fraise, citron vert, gingembre"
     },
     {
-        "title":"ALCOOLS",
+        "title":"alcoolS",
         "souscat":"Aperitifs",
         "name": "KIR",
         "price": "5,30 €",
         "desc":"cassis, mûre, pêche, framboise"
     },
     {
-        "title":"ALCOOLS",
+        "title":"alcoolS",
         "souscat":"Aperitifs",
         "name": "KIR ROYAL",
         "price": "9,50 €",
         "desc":"cassis, mûre, pêche, framboise"
     },
     {
-        "title":"ALCOOLS",
+        "title":"alcoolS",
         "souscat":"Aperitifs",
         "name": "RICARD, PASTIS 2cl",
         "price": "5,00 €"
     },
     {
-        "title":"ALCOOLS",
+        "title":"alcoolS",
         "souscat":"Aperitifs",
         "name": "MARTINI, CAMPARI, SUZE 5cl",
         "price": "5,00 €"
     },
     {
-        "title":"ALCOOLS",
+        "title":"alcoolS",
         "souscat":"Aperitifs",
         "name": "J&B 4cl",
         "price": "7,50 €"
     },
     {
-        "title":"ALCOOLS",
+        "title":"alcoolS",
         "souscat":"Aperitifs",
         "name": "COUPE DE CHAMPAGNE AOC",
         "price": "9,00 €"
     },
     {
-        "title":"ALCOOLS",
+        "title":"alcoolS",
         "souscat":"Aperitifs",
         "name": "JACK DANIEL'S",
         "price": "9,00 €"
     },
     {
-        "title":"ALCOOLS",
+        "title":"alcoolS",
         "souscat":"Digestifs",
         "name": "COGNAC, ARMAGNAC, PRUNE, POIRE",
         "price": "9,00 €"
     },
     {
-        "title":"ALCOOLS",
+        "title":"alcoolS",
         "souscat":"Digestifs",
         "name": "GET 27, GET 31, AMARETTO, BAILEY'S",
         "price": "8,50 €"
     },
     {
-        "title":"ALCOOLS",
+        "title":"alcoolS",
         "souscat":"Digestifs",
         "name": "CALVADOS 20 ANS D'ÂGE, DE CAMEMBERT",
         "price": "12,50 €"
     },
     {
-        "title":"ALCOOLS",
+        "title":"alcoolS",
         "souscat":"Digestifs",
         "name": "LAPHROAIG, OBAN, NIKKA, ABERLOUR",
         "price": "13,00 €"
     },
     {
-        "title":"ALCOOLS",
+        "title":"alcoolS",
         "souscat":"Digestifs",
         "name": "PACTO NAVIO, DIPLOMATICO, TEQUILA RESERVA 1800",
         "price": "13,00 €"
     },
     {
-        "title":"BOISSONS FRAÎCHES",
+        "title":"boissons fraîches",
         "souscat":"PRESSION",
         "name": "JUNGLE BEER",
         "price": "4,50 €",
@@ -456,7 +456,7 @@
         "price3":"14,50 €"
     },
     {
-        "title":"BOISSONS FRAÎCHES",
+        "title":"boissons fraîches",
         "souscat":"PRESSION",
         "name": "SAINT STEPHANUS (ABBAYE)",
         "price": "5,00 €",
@@ -464,7 +464,7 @@
         "price3":"16,50 €"
     },
     {
-        "title":"BOISSONS FRAÎCHES",
+        "title":"boissons fraîches",
         "souscat":"PRESSION",
         "name": "GROLSCH WEIZEN (BLANCHE)",
         "price": "5,00 €",
@@ -472,7 +472,7 @@
         "price3":"16,50 €"
     },
     {
-        "title":"BOISSONS FRAÎCHES",
+        "title":"boissons fraîches",
         "souscat":"PRESSION",
         "name": "MARGUERITE (IPA)",
         "price": "5,00 €",
@@ -480,7 +480,7 @@
         "price3":"16,50 €"
     },
     {
-        "title":"BOISSONS FRAÎCHES",
+        "title":"boissons fraîches",
         "souscat":"PRESSION",
         "name": "MARGUERITE",
         "price": "5,00 €",
@@ -488,7 +488,7 @@
         "price3":"16,50 €"
     },
     {
-        "title":"BOISSONS FRAÎCHES",
+        "title":"boissons fraîches",
         "souscat":"PRESSION",
         "name": "CIDRE (VAL DE RANCE)",
         "price": "5,00 €",
@@ -496,102 +496,102 @@
         "price3":"16,50 €"
     },
     {
-        "title":"BOISSONS FRAÎCHES",
+        "title":"boissons fraîches",
         "souscat":"BOUTEILLE",
         "name": "CORONA 33cl",
         "price": "6,00 €"
     },
     {
-        "title":"BOISSONS FRAÎCHES",
+        "title":"boissons fraîches",
         "souscat":"BOUTEILLE",
-        "name": "BIÈRE SANS ALCOOL 33cl",
+        "name": "BIÈRE SANS alcool 33cl",
         "price": "6,00 €"
     },
     {
-        "title":"BOISSONS FRAÎCHES",
+        "title":"boissons fraîches",
         "souscat":"BOUTEILLE",
         "name": "LA BELLE BLONDE FRANÇAISE 33CL",
         "price": "7,00 €"
     },
     {
-        "title":"BOISSONS FRAÎCHES",
+        "title":"boissons fraîches",
         "souscat":"Softs",
         "name": "COCA-COLA, ZERO,CHERRY 33cl",
         "price": "4,90 €"
     },
     {
-        "title":"BOISSONS FRAÎCHES",
+        "title":"boissons fraîches",
         "souscat":"Softs",
         "name": "PERRIER 33cl",
         "price": "4,90 €"
     },
     {
-        "title":"BOISSONS FRAÎCHES",
+        "title":"boissons fraîches",
         "souscat":"Softs",
         "name": "SCHWEPPES, ORANGINA 25cl",
         "price": "4,90 €"
     },
     {
-        "title":"BOISSONS FRAÎCHES",
+        "title":"boissons fraîches",
         "souscat":"Softs",
         "name": "FRUITS PRESSÉS",
         "price": "6,00 €",
         "desc":"orange ou citron"
     },
     {
-        "title":"BOISSONS FRAÎCHES",
+        "title":"boissons fraîches",
         "souscat":"Softs",
         "name": "JUS",
         "price": "4,90 €",
         "desc":"tomate, ananas, pomme ..."
     },
     {
-        "title":"BOISSONS FRAÎCHES",
+        "title":"boissons fraîches",
         "souscat":"Softs",
         "name": "THÉ GLACÉ MAISON",
         "price": "6,00 €",
         "desc":"pêche ou citron"
     },
     {
-        "title":"BOISSONS FRAÎCHES",
+        "title":"boissons fraîches",
         "souscat":"Softs",
         "name": "SPRITE,TROPICO,FUZE TEA PÊCHE",
         "price": "4,90 €"
     },
     {
-        "title":"BOISSONS FRAÎCHES",
+        "title":"boissons fraîches",
         "souscat":"Eaux minerales",
         "name": "EVIAN, SAN PELLEGRINO",
         "price": "5,50 €",
         "price2": "7,00 €"
     },
     {
-        "title":"BOISSONS CHAUDES",
+        "title":"boissons chaudes",
         "name": "EXPRESSO, DÉCA, ALLONGÉ, NOISETTE",
         "price": "2,50 €"
     },
     {
-        "title":"BOISSONS CHAUDES",
+        "title":"boissons chaudes",
         "name": "GRAND CRÈME, THÉ, INFUSION",
         "price": "5,00 €"
     },
     {
-        "title":"BOISSONS CHAUDES",
+        "title":"boissons chaudes",
         "name": "CHOCOLAT, DOUBLE CAFÉ",
         "price": "5,00 €"
     },
     {
-        "title":"BOISSONS CHAUDES",
+        "title":"boissons chaudes",
         "name": "CAPPUCCINO",
         "price": "6,50 €"
     },
     {
-        "title":"BOISSONS CHAUDES",
+        "title":"boissons chaudes",
         "name": "GROG, VIN CHAUD",
         "price": "6,50 €"
     },
     {
-        "title":"BOISSONS CHAUDES",
+        "title":"boissons chaudes",
         "name": "CHOCOLAT OU CAFÉ VIENNOIS",
         "price": "6,50 €"
     }
