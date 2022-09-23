@@ -125,7 +125,6 @@ header .menu {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  margin: 2%;
 }
 header .menu .logo {
   width: 77px;
@@ -157,7 +156,6 @@ header .menu .search a {
   }
 }
 header .menu .search .borderh {
-  padding: 15px 20px;
   letter-spacing: 0.1em;
   position: relative;
 }
