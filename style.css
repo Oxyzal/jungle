@@ -347,7 +347,6 @@ footer .footer_lower {
 .bleu {
   color: #007F7F;
   border: #007F7F 3px solid;
-  position: relative;
   overflow: hidden;
   z-index: 1;
   transition: all 0.2s linear;
