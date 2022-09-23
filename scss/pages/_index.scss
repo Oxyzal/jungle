@@ -17,6 +17,11 @@
     align-content: center;
     justify-content: center;
   }
+
+  
+  @include for-tablets{
+      padding: 15%;
+  }
 }
 
 

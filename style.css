@@ -118,13 +118,13 @@ body {
 header {
   position: absolute;
   z-index: 3;
+  width: 100%;
 }
 header .menu {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 1%;
-  width: 100vw;
+  width: 100%;
 }
 header .menu .logo {
   width: 77px;
@@ -138,7 +138,13 @@ header .menu .search {
 }
 @media screen and (max-width: 700px) {
   header .menu .search {
-    width: 50%;
+    width: 50% !important;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1024px) {
+  header .menu .search {
+    width: 40%;
   }
 }
 header .menu .search a {
@@ -151,7 +157,6 @@ header .menu .search a {
 }
 header .menu .search .borderh {
   letter-spacing: 0.1em;
-  padding: 15px 20px;
   position: relative;
 }
 header .menu .search .borderh::after {
@@ -192,7 +197,7 @@ footer .footer_upper {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   color: white;
   text-align: center;
   gap: 8%;
@@ -202,6 +207,7 @@ footer .footer_upper {
   footer .footer_upper {
     gap: 2%;
     flex-direction: column;
+    align-items: center !important;
   }
 }
 footer .footer_upper img {
@@ -211,6 +217,11 @@ footer .footer_upper img {
   left: 40px;
 }
 @media screen and (max-width: 700px) {
+  footer .footer_upper img {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
   footer .footer_upper img {
     display: none;
   }
@@ -256,12 +267,7 @@ footer .footer_upper section {
   justify-content: space-around;
   align-items: center;
   flex-direction: row-reverse;
-  margin-top: 10px;
-}
-@media screen and (max-width: 700px) {
-  footer .footer_upper section {
-    margin-top: 0px;
-  }
+  padding: 20px;
 }
 footer .footer_upper section i {
   font-size: 44px;
@@ -270,6 +276,11 @@ footer .footer_upper section i {
   footer .footer_upper section i {
     font-size: 13vw;
     padding: 10px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  footer .footer_upper {
+    align-items: flex-start;
   }
 }
 footer .footer_lower {
@@ -301,22 +312,69 @@ footer .footer_lower {
   align-items: center;
   cursor: pointer;
 }
+<<<<<<< HEAD
 .jaune {
   color: rgb(255, 232, 193);
   border: rgb(255, 232, 193) 3px solid;
 }
 .jaune p {
   margin-bottom: 5px;
-}
+=======
 
-.blanc {
-  color: #ffffff;
-  border: #ffffff 3px solid;
+.jaune {
+  color: #ffe8c1;
+  border: #ffe8c1 3px solid;
+  overflow: hidden;
+  z-index: 1;
+  transition: all 0.2s linear;
+>>>>>>> 1f3e79761ac1693417f931c13d982cce7c3e699d
+}
+.jaune::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #282828;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  transform: translateX(-180px);
+  transition: all 0.2s linear;
+}
+.jaune:hover {
+  color: #ffe8c1;
+  background-color: #282828;
+}
+.jaune:hover::before {
+  transform: translateX(0);
 }
 
 .bleu {
   color: #007F7F;
   border: #007F7F 3px solid;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: all 0.2s linear;
+}
+.bleu::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #007F7F;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  transform: translateX(-180px);
+  transition: all 0.2s linear;
+}
+.bleu:hover {
+  color: #ffffff;
+  background-color: #007F7F;
+}
+.bleu:hover::before {
+  transform: translateX(0);
 }
 
 .btnheader {
@@ -356,6 +414,11 @@ footer .footer_lower {
   .main {
     align-content: center;
     justify-content: center;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .main {
+    padding: 15%;
   }
 }
 

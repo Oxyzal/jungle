@@ -8,9 +8,6 @@
     border: 1px solid;
     align-items: center;
     cursor: pointer;
-    p{
-        
-    }
 }
 .jaune{
     color: $secondary;
@@ -18,14 +15,62 @@
     p{
         margin-bottom: 5px;
     }
+    overflow:hidden;
+    z-index:1;
+    transition:all .2s linear;
+    
+&::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  background-color: $black;
+  height:100%;
+  width:100%;
+  z-index:-1;
+  transform:translateX(-180px);
+  transition:all .2s linear;
 }
-.blanc{
-    color: $white;
-    border: $white 3px solid;
+
+&:hover{
+  color:$secondary;
+  background-color: $black;
 }
+
+&:hover::before{
+   transform:translateX(0);
+}
+}
+
 .bleu{
     color: $primary2;
     border: $primary2 3px solid;
+    position:relative;
+    overflow:hidden;
+    z-index:1;
+    transition:all .2s linear;
+    
+&::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  background-color: $primary2;
+  height:100%;
+  width:100%;
+  z-index:-1;
+  transform:translateX(-180px);
+  transition:all .2s linear;
+}
+
+&:hover{
+  color:$white;
+  background-color: $primary2;
+}
+
+&:hover::before{
+   transform:translateX(0);
+}
 }
 
 .btnheader{
