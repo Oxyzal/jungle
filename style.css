@@ -125,6 +125,7 @@ header .menu {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  margin: 2%;
 }
 header .menu .logo {
   width: 77px;
