@@ -12,6 +12,7 @@
   width: 100vw;
   padding: 10%;
   background-image: url('./img/header.jpg');
+  
 
   @include for-mobiles{
     align-content: center;
