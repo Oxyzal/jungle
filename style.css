@@ -149,7 +149,7 @@ header .menu .search a {
     font-size: 5vw;
   }
 }
-header .menu .search .borderh {
+header .menu .search .borderh:hover {
   border-bottom: #04c9c9 2px solid;
 }
 
@@ -548,11 +548,11 @@ h2 {
   color: #007F7F;
   font-size: 2.5rem;
   cursor: pointer;
-  transition: 1s;
+  transition: 0.3s;
 }
 .carte2 .carteadmin .espace .cr:hover {
   font-size: 2.8rem;
-  transition: 1s;
+  transition: 0.3s;
 }
 .carte2 .carteadmin .espace .trait {
   height: 2px;
@@ -560,12 +560,12 @@ h2 {
 }
 .carte2 .carteadmin .espace .choix {
   color: #007F7F;
-  transition: 1s;
+  transition: 0.3s;
   cursor: pointer;
 }
 .carte2 .carteadmin .espace .choix:hover {
   font-size: 1.2rem;
-  transition: 1s;
+  transition: 0.3s;
 }
 .carte2 .carteinfo {
   width: 78%;

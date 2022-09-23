@@ -30,7 +30,10 @@ header{
 
       }
       .borderh{
-        border-bottom: $primary 2px solid;
+        &:hover{
+          border-bottom: $primary 2px solid;
+        }
+        
       }
     }
   }
