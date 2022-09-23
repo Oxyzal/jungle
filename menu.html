@@ -5,9 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+<<<<<<< HEAD
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+=======
+    <!-- Aos Animation-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+>>>>>>> main
     <title>Document</title>
 </head>
 <body>
@@ -15,16 +21,16 @@
         <div class="menu">
             <img class="logo" src="img/logo.jpg">
             <nav class="search">
-                <a href="index.html">Accueil</a>
-                <a class='borderh' href="menu.html">Notre Menu</a>
-                <a href="contact.html">Contact</a>
+                <a class='borderh' href="index.html" data-aos="fade-down">Accueil</a>
+                <a class='borderh' href="menu.html" data-aos="fade-down">Notre Menu</a>
+                <a class='borderh' href="contact.html" data-aos="fade-down">Contact</a>
             </nav>
         </div>  
     </header>
     <section class="menumain">
-        <h1>Menu</h1>
+        <h1 data-aos="flip-right" data-aos-delay="150">Menu</h1>
     </section>
-    <section class="carte2">
+    <section class="carte2" data-aos="zoom-in-right" data-aos-delay="150">
         <div class="carteadmin">
             <div class="espace">
                 <button value=' ' class="cr">Carte restaurant</button>
@@ -103,5 +109,8 @@
     </footer>
 
     <script type="module" src="js/main.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

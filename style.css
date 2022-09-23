@@ -615,7 +615,7 @@ h2 {
   color: #007F7F;
 }
 .carte2 .carteadmin {
-  background: #fdf6e8;
+  background-color: #D7D4D4;
   margin: 20px;
   width: 25%;
   height: auto;
@@ -627,11 +627,22 @@ h2 {
   flex-direction: column;
   gap: 0.5rem;
 }
+.carte2 .carteadmin .espace button {
+  background-color: #D7D4D4;
+  border: none;
+  color: #582900;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 .carte2 .carteadmin .espace .cr {
   color: #007F7F;
   font-size: 2.5rem;
   cursor: pointer;
   transition: 0.3s;
+  background-color: #D7D4D4;
 }
 .carte2 .carteadmin .espace .cr:hover {
   font-size: 2.8rem;
@@ -709,17 +720,6 @@ textarea {
 #buttonContact {
   margin-left: 685px;
   margin-top: 10px;
-}
-
-button {
-  background-color: #FFE8C1;
-  border: none;
-  color: #582900;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */

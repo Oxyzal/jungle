@@ -19,9 +19,12 @@ const showPlat = (title) =>{
     menu.forEach(element => {
         if(element.title === title){
             div.innerHTML +=`<p data-food='${element.title}' class='food'> ${element.name} </p>`
+            div.innerHTML +=`<p data-food='${element.price}' class='food'> ${element.price} </p>`
+      
         }
     })
 }
+
 showPlat('plats-du-jour')
 showPlat('desserts-du-jour')
 showPlat('a-partager')
