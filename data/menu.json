@@ -1,30 +1,18 @@
 [
     {
-<<<<<<< HEAD
         "title":"plats-du-jour",
-=======
-        "title":"Plats-du-jour",
->>>>>>> 2de8d2025f7320d459cd2038146a49edb2f92c0b
         "name": "STEAK DE THON AU GUACAMOLE",
         "price": "18.50 €",
         "desc":"houmous de carottes et chips de carottes"
     },
     {
-<<<<<<< HEAD
         "title":"plats-du-jour",
-=======
-        "title":"Plats-du-jour",
->>>>>>> 2de8d2025f7320d459cd2038146a49edb2f92c0b
         "name": "SOURIS D AGNEAU GRATIN DE POMMES DE TERRE",
         "price": "19,00 €"
         
     },
     {
-<<<<<<< HEAD
         "title":"plats-du-jour",
-=======
-        "title":"Plats-du-jour",
->>>>>>> 2de8d2025f7320d459cd2038146a49edb2f92c0b
         "name": "FILET DE LIEU NOIR EN CROÛTE DE PARMESAN",
         "price": "18.50",
         "desc":"Clafoutis de courgettes au chorizo"
@@ -386,75 +374,75 @@
         "desc":"fraise, citron vert, gingembre"
     },
     {
-        "title":"alcoolS",
+        "title":"alcools",
         "souscat":"Aperitifs",
         "name": "KIR",
         "price": "5,30 €",
         "desc":"cassis, mûre, pêche, framboise"
     },
     {
-        "title":"alcoolS",
+        "title":"alcools",
         "souscat":"Aperitifs",
         "name": "KIR ROYAL",
         "price": "9,50 €",
         "desc":"cassis, mûre, pêche, framboise"
     },
     {
-        "title":"alcoolS",
+        "title":"alcools",
         "souscat":"Aperitifs",
         "name": "RICARD, PASTIS 2cl",
         "price": "5,00 €"
     },
     {
-        "title":"alcoolS",
+        "title":"alcools",
         "souscat":"Aperitifs",
         "name": "MARTINI, CAMPARI, SUZE 5cl",
         "price": "5,00 €"
     },
     {
-        "title":"alcoolS",
+        "title":"alcools",
         "souscat":"Aperitifs",
         "name": "J&B 4cl",
         "price": "7,50 €"
     },
     {
-        "title":"alcoolS",
+        "title":"alcools",
         "souscat":"Aperitifs",
         "name": "COUPE DE CHAMPAGNE AOC",
         "price": "9,00 €"
     },
     {
-        "title":"alcoolS",
+        "title":"alcools",
         "souscat":"Aperitifs",
         "name": "JACK DANIEL'S",
         "price": "9,00 €"
     },
     {
-        "title":"alcoolS",
+        "title":"alcools",
         "souscat":"Digestifs",
         "name": "COGNAC, ARMAGNAC, PRUNE, POIRE",
         "price": "9,00 €"
     },
     {
-        "title":"alcoolS",
+        "title":"alcools",
         "souscat":"Digestifs",
         "name": "GET 27, GET 31, AMARETTO, BAILEY'S",
         "price": "8,50 €"
     },
     {
-        "title":"alcoolS",
+        "title":"alcools",
         "souscat":"Digestifs",
         "name": "CALVADOS 20 ANS D'ÂGE, DE CAMEMBERT",
         "price": "12,50 €"
     },
     {
-        "title":"alcoolS",
+        "title":"alcools",
         "souscat":"Digestifs",
         "name": "LAPHROAIG, OBAN, NIKKA, ABERLOUR",
         "price": "13,00 €"
     },
     {
-        "title":"alcoolS",
+        "title":"alcools",
         "souscat":"Digestifs",
         "name": "PACTO NAVIO, DIPLOMATICO, TEQUILA RESERVA 1800",
         "price": "13,00 €"
