@@ -136,11 +136,39 @@ header .menu .search {
   display: flex;
   justify-content: space-between;
 }
+@media screen and (max-width: 700px) {
+  header .menu .search {
+    width: 50%;
+  }
+}
 header .menu .search a {
   color: #ffffff;
 }
+@media screen and (max-width: 700px) {
+  header .menu .search a {
+    font-size: 5vw;
+  }
+}
 header .menu .search .borderh {
-  border-bottom: #04c9c9 2px solid;
+  letter-spacing: 0.1em;
+  padding: 15px 20px;
+  position: relative;
+}
+header .menu .search .borderh::after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #007F7F;
+  transition: width 0.2s ease 0s, left 0.2s ease 0s;
+  width: 0;
+}
+header .menu .search .borderh:hover:after {
+  width: 100%;
+  left: 0;
 }
 
 .bar {
@@ -155,7 +183,6 @@ header .menu .search .borderh {
 footer {
   color: #96694B;
   background-color: #96694B;
-  height: 300px;
   display: flex;
   flex-direction: column;
 }
@@ -171,19 +198,41 @@ footer .footer_upper {
   gap: 8%;
   position: relative;
 }
+@media screen and (max-width: 700px) {
+  footer .footer_upper {
+    gap: 2%;
+    flex-direction: column;
+  }
+}
 footer .footer_upper img {
   position: absolute;
   width: 77px;
   top: 30px;
   left: 40px;
 }
+@media screen and (max-width: 700px) {
+  footer .footer_upper img {
+    display: none;
+  }
+}
 footer .footer_upper h3 {
   font-size: 20px;
   font-weight: bold;
   padding-bottom: 10px;
 }
+@media screen and (max-width: 700px) {
+  footer .footer_upper h3 {
+    font-size: 4vw;
+  }
+}
 footer .footer_upper p {
   font-size: 16px;
+}
+@media screen and (max-width: 700px) {
+  footer .footer_upper p {
+    font-size: 4vw;
+    font-family: "Courier New", Courier, monospace;
+  }
 }
 footer .footer_upper div {
   height: 100%;
@@ -192,6 +241,11 @@ footer .footer_upper div {
   align-content: center;
   justify-content: flex-start;
   padding-top: 7%;
+}
+@media screen and (max-width: 700px) {
+  footer .footer_upper div {
+    padding-top: 0%;
+  }
 }
 footer .footer_upper div:nth-child(3) {
   position: relative;
@@ -204,8 +258,19 @@ footer .footer_upper section {
   flex-direction: row-reverse;
   margin-top: 10px;
 }
+@media screen and (max-width: 700px) {
+  footer .footer_upper section {
+    margin-top: 0px;
+  }
+}
 footer .footer_upper section i {
   font-size: 44px;
+}
+@media screen and (max-width: 700px) {
+  footer .footer_upper section i {
+    font-size: 13vw;
+    padding: 10px;
+  }
 }
 footer .footer_lower {
   width: 100%;
@@ -218,6 +283,11 @@ footer .footer_lower {
   text-align: center;
   gap: 10%;
   border-top: 1px solid black;
+}
+@media screen and (max-width: 700px) {
+  footer .footer_lower {
+    font-size: 4vw;
+  }
 }
 
 .button {
@@ -253,6 +323,11 @@ footer .footer_lower {
   margin: 10%;
   text-align: -webkit-right;
 }
+@media screen and (max-width: 700px) {
+  .btnheader {
+    font-size: 4vw;
+  }
+}
 
 .btn {
   place-self: self-end;
@@ -277,17 +352,33 @@ footer .footer_lower {
   padding: 10%;
   background-image: url("./img/header.jpg");
 }
+@media screen and (max-width: 700px) {
+  .main {
+    align-content: center;
+    justify-content: center;
+  }
+}
 
 h1 {
   color: #007F7F;
   font-size: 3.7rem;
   font-weight: 400;
 }
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 17.7vw;
+  }
+}
 
 h2 {
   color: #ffe8c1;
   font-size: 2rem;
   font-weight: 400;
+}
+@media screen and (max-width: 700px) {
+  h2 {
+    font-size: 11vw;
+  }
 }
 
 .nous {
@@ -297,6 +388,14 @@ h2 {
   padding-top: 10%;
   padding-bottom: 10%;
 }
+@media screen and (max-width: 700px) {
+  .nous {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 5vw;
+  }
+}
 .nous .flexcol {
   margin-top: 2%;
   gap: 2rem;
@@ -305,12 +404,22 @@ h2 {
   font-size: 2rem;
   color: #007F7F;
 }
+@media screen and (max-width: 700px) {
+  .nous .flexcol .rem3 {
+    font-size: 7vw;
+  }
+}
 .nous img {
   width: 30%;
   margin: 5%;
   border-radius: 5px;
   object-fit: contain;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+@media screen and (max-width: 700px) {
+  .nous img {
+    width: 75%;
+  }
 }
 
 .carte {
@@ -324,6 +433,20 @@ h2 {
   background-repeat: no-repeat;
   object-fit: contain;
   background-size: cover;
+}
+@media screen and (max-width: 700px) {
+  .carte {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    font-size: 5vw;
+  }
+  .carte .btn {
+    place-self: center start;
+  }
 }
 .carte .flexcol {
   margin-top: 2%;
@@ -348,6 +471,25 @@ h2 {
   font-size: 2rem;
   color: #007F7F;
 }
+@media screen and (max-width: 700px) {
+  .pret .flexcol .rem3 {
+    font-size: 6vw;
+  }
+}
+@media screen and (max-width: 700px) {
+  .pret {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+  .pret a {
+    font-size: 6vw;
+  }
+  .pret p {
+    font-size: 5vw;
+  }
+}
 
 .jungle {
   display: flex;
@@ -371,6 +513,18 @@ h2 {
   margin-top: 2%;
   margin-bottom: 2%;
   object-fit: contain;
+}
+@media screen and (max-width: 700px) {
+  .jungle {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    font-size: 5vw;
+  }
+  .jungle img {
+    width: 75%;
+  }
 }
 
 .menumain {
@@ -412,11 +566,11 @@ h2 {
   color: #007F7F;
   font-size: 2.5rem;
   cursor: pointer;
-  transition: 1s;
+  transition: 0.3s;
 }
 .carte2 .carteadmin .espace .cr:hover {
   font-size: 2.8rem;
-  transition: 1s;
+  transition: 0.3s;
 }
 .carte2 .carteadmin .espace .trait {
   height: 2px;
@@ -424,12 +578,12 @@ h2 {
 }
 .carte2 .carteadmin .espace .choix {
   color: #007F7F;
-  transition: 1s;
+  transition: 0.3s;
   cursor: pointer;
 }
 .carte2 .carteadmin .espace .choix:hover {
   font-size: 1.2rem;
-  transition: 1s;
+  transition: 0.3s;
 }
 .carte2 .carteinfo {
   width: 78%;
