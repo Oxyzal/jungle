@@ -125,6 +125,7 @@ header .menu {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  margin: 2%;
 }
 header .menu .logo {
   width: 77px;
@@ -156,6 +157,7 @@ header .menu .search a {
   }
 }
 header .menu .search .borderh {
+  padding: 15px 20px;
   letter-spacing: 0.1em;
   position: relative;
 }
@@ -346,7 +348,6 @@ footer .footer_lower {
 .bleu {
   color: #007F7F;
   border: #007F7F 3px solid;
-  position: relative;
   overflow: hidden;
   z-index: 1;
   transition: all 0.2s linear;

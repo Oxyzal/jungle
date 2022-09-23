@@ -23,7 +23,7 @@ const showPlat = (title) =>{
     })
 }
 showPlat('Plats-du-jour')
-showPlat('DESSERTS')
+showPlat('desserts')
 showPlat('burgers')
 
 document.querySelectorAll('.choix').forEach(choix => {
