@@ -18,7 +18,8 @@ header{
       justify-content: space-between;
 
       @include for-mobiles{
-        width: 50%;
+        width: 50% !important;
+        text-align: center;
       }
 
       @include for-tablets{
@@ -36,8 +37,6 @@ header{
       .borderh{
         
           letter-spacing: 0.1em;
-          
-          padding: 15px 20px;
           position: relative;
         
         &::after {    

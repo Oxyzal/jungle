@@ -138,7 +138,8 @@ header .menu .search {
 }
 @media screen and (max-width: 700px) {
   header .menu .search {
-    width: 50%;
+    width: 50% !important;
+    text-align: center;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -156,7 +157,6 @@ header .menu .search a {
 }
 header .menu .search .borderh {
   letter-spacing: 0.1em;
-  padding: 15px 20px;
   position: relative;
 }
 header .menu .search .borderh::after {
