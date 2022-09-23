@@ -1,12 +1,12 @@
 header{
   position: absolute;
   z-index: 3;
+  width: 100%;
   .menu{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 1%;
-    width: 100vw;
+    width: 100%;
     .logo{
       width: 77px;
     }
@@ -19,6 +19,10 @@ header{
 
       @include for-mobiles{
         width: 50%;
+      }
+
+      @include for-tablets{
+        width: 40%;
       }
 
       a{
