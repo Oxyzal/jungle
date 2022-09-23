@@ -417,12 +417,12 @@ footer .footer_lower {
 
 h1 {
   color: #007F7F;
-  font-size: 7.7rem;
+  font-size: 9vw;
   font-weight: 400;
 }
 @media screen and (max-width: 700px) {
   h1 {
-    font-size: 17.7vw;
+    font-size: 16vw;
   }
 }
 
