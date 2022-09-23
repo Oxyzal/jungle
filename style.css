@@ -197,7 +197,7 @@ footer .footer_upper {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   color: white;
   text-align: center;
   gap: 8%;
