@@ -16,8 +16,18 @@ header{
       margin-right: 10%;
       display: flex;
       justify-content: space-between;
+
+      @include for-mobiles{
+        width: 50%;
+      }
+
       a{
         color: $white;
+
+        @include for-mobiles{
+          font-size: 5vw;
+        }
+
       }
       .borderh{
         border-bottom: $primary 2px solid;

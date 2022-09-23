@@ -136,8 +136,18 @@ header .menu .search {
   display: flex;
   justify-content: space-between;
 }
+@media screen and (max-width: 700px) {
+  header .menu .search {
+    width: 50%;
+  }
+}
 header .menu .search a {
   color: #ffffff;
+}
+@media screen and (max-width: 700px) {
+  header .menu .search a {
+    font-size: 5vw;
+  }
 }
 header .menu .search .borderh {
   border-bottom: #04c9c9 2px solid;
@@ -277,17 +287,33 @@ footer .footer_lower {
   padding: 10%;
   background-image: url("./img/header.jpg");
 }
+@media screen and (max-width: 700px) {
+  .main {
+    align-content: center;
+    justify-content: center;
+  }
+}
 
 h1 {
   color: #007F7F;
   font-size: 3.7rem;
   font-weight: 400;
 }
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 17.7vw;
+  }
+}
 
 h2 {
   color: #ffe8c1;
   font-size: 2rem;
   font-weight: 400;
+}
+@media screen and (max-width: 700px) {
+  h2 {
+    font-size: 11vw;
+  }
 }
 
 .nous {
@@ -297,6 +323,14 @@ h2 {
   padding-top: 10%;
   padding-bottom: 10%;
 }
+@media screen and (max-width: 700px) {
+  .nous {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 5vw;
+  }
+}
 .nous .flexcol {
   margin-top: 2%;
   gap: 2rem;
@@ -305,12 +339,22 @@ h2 {
   font-size: 2rem;
   color: #007F7F;
 }
+@media screen and (max-width: 700px) {
+  .nous .flexcol .rem3 {
+    font-size: 7vw;
+  }
+}
 .nous img {
   width: 30%;
   margin: 5%;
   border-radius: 5px;
   object-fit: contain;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+@media screen and (max-width: 700px) {
+  .nous img {
+    width: 75%;
+  }
 }
 
 .carte {
@@ -324,6 +368,19 @@ h2 {
   background-repeat: no-repeat;
   object-fit: contain;
   background-size: cover;
+}
+@media screen and (max-width: 700px) {
+  .carte {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+  }
+  .carte .btn {
+    place-self: center start;
+  }
 }
 .carte .flexcol {
   margin-top: 2%;
