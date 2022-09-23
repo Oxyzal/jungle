@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -601,6 +602,54 @@ h2 {
 }
 .menumain h1 {
   margin: 0 auto;
+}
+
+.food {
+  font-size: 20px;
+}
+
+.food.plats-du-jour {
+  opacity: 0.5;
+}
+
+.food.a-partager {
+  opacity: 0.5;
+}
+
+.food.salades {
+  opacity: 0.5;
+}
+
+.food.plats {
+  opacity: 0.5;
+}
+
+.food.burgers {
+  opacity: 0.5;
+}
+
+.food.happy-hour {
+  opacity: 0.5;
+}
+
+.food.les-vins {
+  opacity: 0.5;
+}
+
+.food.cocktails {
+  opacity: 0.5;
+}
+
+.food.alcools {
+  opacity: 0.5;
+}
+
+.food.boissons-fraîches {
+  opacity: 0.5;
+}
+
+.food.price {
+  margin-bottom: 4%;
 }
 
 .carte2 {
