@@ -22,9 +22,19 @@ const showPlat = (title) =>{
         }
     })
 }
-showPlat('Plats-du-jour')
-showPlat('DESSERTS')
+showPlat('plats-du-jour')
+showPlat('desserts-du-jour')
+showPlat('a-partager')
+showPlat('salades')
+showPlat('plats')
 showPlat('burgers')
+showPlat('desserts')
+showPlat('happy-hour')
+showPlat('les-vins')
+showPlat('cocktails')
+showPlat('alcools')
+showPlat('boissons-fraîches')
+showPlat('boissons-chaudes')
 
 document.querySelectorAll('.choix').forEach(choix => {
     choix.addEventListener("click", (e) =>{
