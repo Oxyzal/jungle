@@ -165,7 +165,6 @@ header .menu .search .borderh {
 footer {
   color: #96694B;
   background-color: #96694B;
-  height: 300px;
   display: flex;
   flex-direction: column;
 }
@@ -181,19 +180,41 @@ footer .footer_upper {
   gap: 8%;
   position: relative;
 }
+@media screen and (max-width: 700px) {
+  footer .footer_upper {
+    gap: 2%;
+    flex-direction: column;
+  }
+}
 footer .footer_upper img {
   position: absolute;
   width: 77px;
   top: 30px;
   left: 40px;
 }
+@media screen and (max-width: 700px) {
+  footer .footer_upper img {
+    display: none;
+  }
+}
 footer .footer_upper h3 {
   font-size: 20px;
   font-weight: bold;
   padding-bottom: 10px;
 }
+@media screen and (max-width: 700px) {
+  footer .footer_upper h3 {
+    font-size: 4vw;
+  }
+}
 footer .footer_upper p {
   font-size: 16px;
+}
+@media screen and (max-width: 700px) {
+  footer .footer_upper p {
+    font-size: 4vw;
+    font-family: "Courier New", Courier, monospace;
+  }
 }
 footer .footer_upper div {
   height: 100%;
@@ -202,6 +223,11 @@ footer .footer_upper div {
   align-content: center;
   justify-content: flex-start;
   padding-top: 7%;
+}
+@media screen and (max-width: 700px) {
+  footer .footer_upper div {
+    padding-top: 0%;
+  }
 }
 footer .footer_upper div:nth-child(3) {
   position: relative;
@@ -214,8 +240,19 @@ footer .footer_upper section {
   flex-direction: row-reverse;
   margin-top: 10px;
 }
+@media screen and (max-width: 700px) {
+  footer .footer_upper section {
+    margin-top: 0px;
+  }
+}
 footer .footer_upper section i {
   font-size: 44px;
+}
+@media screen and (max-width: 700px) {
+  footer .footer_upper section i {
+    font-size: 13vw;
+    padding: 10px;
+  }
 }
 footer .footer_lower {
   width: 100%;
@@ -228,6 +265,11 @@ footer .footer_lower {
   text-align: center;
   gap: 10%;
   border-top: 1px solid black;
+}
+@media screen and (max-width: 700px) {
+  footer .footer_lower {
+    font-size: 4vw;
+  }
 }
 
 .button {
@@ -262,6 +304,11 @@ footer .footer_lower {
 .btnheader {
   margin: 10%;
   text-align: -webkit-right;
+}
+@media screen and (max-width: 700px) {
+  .btnheader {
+    font-size: 4vw;
+  }
 }
 
 .btn {
@@ -377,6 +424,7 @@ h2 {
     justify-content: center;
     gap: 30px;
     text-align: center;
+    font-size: 5vw;
   }
   .carte .btn {
     place-self: center start;
@@ -405,6 +453,25 @@ h2 {
   font-size: 2rem;
   color: #007F7F;
 }
+@media screen and (max-width: 700px) {
+  .pret .flexcol .rem3 {
+    font-size: 6vw;
+  }
+}
+@media screen and (max-width: 700px) {
+  .pret {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+  .pret a {
+    font-size: 6vw;
+  }
+  .pret p {
+    font-size: 5vw;
+  }
+}
 
 .jungle {
   display: flex;
@@ -428,6 +495,18 @@ h2 {
   margin-top: 2%;
   margin-bottom: 2%;
   object-fit: contain;
+}
+@media screen and (max-width: 700px) {
+  .jungle {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    font-size: 5vw;
+  }
+  .jungle img {
+    width: 75%;
+  }
 }
 
 .menumain {

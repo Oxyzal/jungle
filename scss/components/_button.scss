@@ -27,6 +27,11 @@
 .btnheader{
     margin: 10%;
     text-align: -webkit-right;
+
+    
+    @include for-mobiles{
+        font-size: 4vw;
+    }
 }
 
 .btn{

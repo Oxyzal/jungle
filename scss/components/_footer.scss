@@ -1,6 +1,5 @@
 footer{
     @include secondary_color;
-    height: 300px;
     display: flex;
     flex-direction: column;
 
@@ -16,21 +15,40 @@ footer{
         gap: 8%;
         position: relative;
 
+        @include for-mobiles{
+            gap: 2%;
+            flex-direction: column;
+        }
+
         img{
             position: absolute;
             width: 77px;
             top: 30px;
             left: 40px;
+
+            @include for-mobiles{
+                display: none;
+            }
         }
 
         h3{
             font-size: 20px;
             font-weight: bold;
             padding-bottom: 10px;
+
+            @include for-mobiles{
+                font-size: 4vw;
+            }
         }
 
         p{
             font-size: 16px;
+
+            
+            @include for-mobiles{
+                font-size: 4vw;
+                font-family: 'Courier New', Courier, monospace;
+            }
             
         }
 
@@ -41,6 +59,10 @@ footer{
             align-content: center;
             justify-content: flex-start;
             padding-top: 7%;
+
+            @include for-mobiles{
+                padding-top: 0%;
+            }
 
         }
 
@@ -55,13 +77,22 @@ footer{
             align-items: center;
             flex-direction: row-reverse;
             margin-top: 10px;
+
+            @include for-mobiles{
+                margin-top: 0px;
+            }
         
             
 
             i{
                 font-size: 44px;
-                
-                
+
+                @include for-mobiles{
+
+                    font-size: 13vw;
+                    padding: 10px;
+        
+                }
             }
 
         }
@@ -78,6 +109,11 @@ footer{
         text-align: center;
         gap: 10%;
         border-top: 1px solid black;
+
+        
+        @include for-mobiles{
+            font-size: 4vw;
+        }
     }
 
 }

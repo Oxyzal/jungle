@@ -101,7 +101,9 @@ h2{
     .btn{
       place-self: center start;
     }
+
     text-align: center;
+    font-size: 5vw;
   }
 
   .flexcol{
@@ -132,8 +134,28 @@ h2{
     .rem3{
       font-size: 2rem;
       color: $primary2;
+
+      @include for-mobiles{
+        font-size: 6vw;
+      }
     }
   }
+
+  @include for-mobiles{
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    
+    a{
+      font-size: 6vw;
+    }
+    
+    p{
+      font-size: 5vw;
+    }
+  }
+
 }
 
 .jungle{
@@ -148,7 +170,6 @@ h2{
     gap: 2rem;
     .rem3{
       font-size: 2rem;
-
     }
   }
   img{
@@ -158,5 +179,18 @@ h2{
     margin-bottom: 2%;
     object-fit: contain;
   }
-  background-image: url('./img/Jungle.png');;
+  background-image: url('./img/Jungle.png');
+
+  @include for-mobiles{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    font-size: 5vw;
+
+    img{
+      width: 75%;
+    }
+        
+  }
 }
