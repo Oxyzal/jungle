@@ -13,8 +13,18 @@ const showMenu = () =>{
 
 }
 
-showMenu();
-
+const showPlat = (title) =>{
+    const div = document.querySelector(`#${title}`)
+    div.innerHTML = `<h2>${title}</h2>`
+    menu.forEach(element => {
+        if(element.title === title){
+            div.innerHTML +=`<p data-food='${element.title}' class='food'> ${element.name} </p>`
+        }
+    })
+}
+showPlat('Plats-du-jour')
+showPlat('DESSERTS')
+showPlat('burgers')
 
 document.querySelectorAll('.choix').forEach(choix => {
     choix.addEventListener("click", (e) =>{
@@ -33,9 +43,10 @@ document.querySelectorAll('.choix').forEach(choix => {
 })
 
 document.querySelector('.cr').addEventListener("click", (e) =>{
-          document.querySelectorAll('.food').forEach((el) => {
-                el.style.display = 'block'
+    document.querySelectorAll('.food').forEach((el) => {
+        el.style.display = 'block'
 
-          })
-        })
-        
+    })
+})
+
+const plat = document.querySelector('#plat')
