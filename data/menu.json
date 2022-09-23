@@ -133,7 +133,124 @@
         "name": "JUNGLE ARCH",
         "price": "18,50 €",
         "desc":"bœuf haché VBF, bacon, cheddar, tomates, compotée d'oignons, frites maison coupées au couteau et mesclun"
-    }
+    },
+    {
+        "title":"Burgers",
+        "name": "BURGER BASQUE",
+        "price": "18,50 €",
+        "desc":"bœuf haché VBF, sauce poivrons, chorizo, fromage de brebis, tomates, oignons"
+    },
+    {
+        "title":"Burgers",
+        "name": "L'AUVERGNAT BURGER",
+        "price": "18,50 €",
+        "desc":"bœuf haché VBF, crème au bleu d'auvergne, Saint-Nectaire fermier, salade, tomate et compotée d'oignons, frites maison coupées au couteau et mesclun"
+    },
+    {
+        "title":"Burgers",
+        "name": "BURGER AU SAUMON",
+        "price": "18,50 €",
+        "desc":"escalope de saumon, avocat, sauce aigre douce, salade, oignons caramélisés, frites maison coupées au couteau et mesclun"
+    },
+    {
+        "title":"DESSERTS",
+        "name": "MOELLEUX CHOCOLAT CŒUR CARAMEL",
+        "price": "8,00 €"
+    },
+    {
+        "title":"DESSERTS",
+        "name": "TIRAMISU AU NUTELLA, OU PAS !",
+        "price": "8,50 €"
+    },
+    {
+        "title":"DESSERTS",
+        "name": "CAFÉ GOURMAND",
+        "price": "8,50 €"
+    },
+    {
+        "title":"DESSERTS",
+        "name": "DESSERT DU JOUR",
+        "price": "7,50 €"
+    },
+    {
+        "title":"DESSERTS",
+        "name": "THÉ GOURMAND",
+        "price": "9,50 €"
+    },
+    {
+        "title":"DESSERTS",
+        "name": "TARTARE DE FRUITS FRAIS AU BASILIC",
+        "price": "8,00 €"
+    },
+    {
+        "title":"DESSERTS",
+        "name": "TIRAMISU EXOTIQUE",
+        "price": "8,50 €"
+    },
+    {
+        "title":"HAPPY HOUR",
+        "name": "MARGUERITE, GROLSCH WEIZEN ( BLANCHE), CIDRE (VALDERANCE) 50cl",
+        "price": "7,00 €"
+    },
+    {
+        "title":"HAPPY HOUR",
+        "name": "JUNGLE BEER 50cl",
+        "price": "6,00 €"
+    },
+    {
+        "title":"HAPPY HOUR",
+        "name": "VINS 14cl",
+        "price": "4,50 €",
+        "desc":"Chardonnay ou Côtes du Rhône ou Rosé Corse"
+    },
+    {
+        "title":"HAPPY HOUR",
+        "name": "COUPE DE CHAMPAGNE AOC 10cl",
+        "price": "7,00 €"
+    },
+    {
+        "title":"HAPPY HOUR",
+        "name": "COCKTAILS",
+        "price": "7,00 €",
+        "desc":"Apérol Spritz, Mojito, Caïpirinha, Moscow Mule"
+    },
+    {
+        "title":"HAPPY HOUR",
+        "name": "COCKTAILS SANS ALCOOL 20cl",
+        "price": "6,00 €",
+        "desc":"Virgin Mojito, jungle lion"
+    },
+    {
+        "title":"HAPPY HOUR",
+        "name": "SAINT STEPHANUS (ABBAYE), MARGUERITE (IPA)",
+        "price": "7,00 €"
+    },
+    {
+        "title":"LES VINS",
+        "name": "RHÔNE",
+        "price": "7,00 €",
+        "price2":"19, 00€",
+        "price3":"29,00 €",
+        "desc":"IGP Collines Rhodaniennes"
+    },
+    {
+        "title":"LES VINS",
+        "name": "RHÔNE",
+        "price": "39,00 €",
+        "desc":"Crozes-Hermitage Les Galets"
+    },
+    {
+        "title":"LES VINS",
+        "name": "BORDEAUX",
+        "price": "6,00 €",
+        "price2":"21, 00€",
+        "price3":"32,00 €",
+        "desc":"Médoc Pépin d'Escurac"
+    },
+    
+    
+    
+    
 
 
 

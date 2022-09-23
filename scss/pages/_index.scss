@@ -12,39 +12,74 @@
   width: 100vw;
   padding: 10%;
   background-image: url('./img/header.jpg');
+
+  @include for-mobiles{
+    align-content: center;
+    justify-content: center;
+  }
 }
 
 
 
 
 h1{
-  @include main_color;
+  color: $primary2;
   font-size: 3.7rem;
   font-weight: 400;
+
+  @include for-mobiles{
+    font-size: 17.7vw;
+  }
+
 }
 h2{
-  @include third_color;
+  color: $secondary;
   font-size: 2rem;
   font-weight: 400;
+
+  @include for-mobiles{
+    font-size: 11vw;
+  }
+
 }
 
 .nous{
   display: flex;
   width: 100vw;
   justify-content: space-around;
+  padding-top: 10%;
+  padding-bottom: 10%;
+
+  @include for-mobiles{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 5vw;
+  }
+
   .flexcol{
     margin-top: 2%;
     gap: 2rem;
     .rem3{
       font-size: 2rem;
       color: $primary2;
+
+      @include for-mobiles{
+        font-size: 7vw;
+      }
+
     }
   }
   img{
     width: 30%;
+    margin: 5%;
     border-radius: 5px;
     object-fit: contain;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    @include for-mobiles{
+      width: 75%;
+    }
   }
 }
 
@@ -55,6 +90,22 @@ h2{
   color: $white;
   padding-top: 5%;
   padding-bottom: 15%;
+
+  @include for-mobiles{
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    .btn{
+      place-self: center start;
+    }
+
+    text-align: center;
+    font-size: 5vw;
+  }
+
   .flexcol{
     margin-top: 2%;
     gap: 2rem;
@@ -75,14 +126,36 @@ h2{
   display: flex;
   width: 100vw;
   justify-content: space-around;
+  padding-top: 10%;
+  padding-bottom: 10%;
   .flexcol{
     margin-top: 2%;
     gap: 2rem;
     .rem3{
       font-size: 2rem;
       color: $primary2;
+
+      @include for-mobiles{
+        font-size: 6vw;
+      }
     }
   }
+
+  @include for-mobiles{
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    
+    a{
+      font-size: 6vw;
+    }
+    
+    p{
+      font-size: 5vw;
+    }
+  }
+
 }
 
 .jungle{
@@ -97,7 +170,6 @@ h2{
     gap: 2rem;
     .rem3{
       font-size: 2rem;
-
     }
   }
   img{
@@ -107,5 +179,18 @@ h2{
     margin-bottom: 2%;
     object-fit: contain;
   }
-  background-image: url('./img/Jungle.png');;
+  background-image: url('./img/Jungle.png');
+
+  @include for-mobiles{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    font-size: 5vw;
+
+    img{
+      width: 75%;
+    }
+        
+  }
 }
