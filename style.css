@@ -11,7 +11,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video, input, select ,textarea {
+time, mark, audio, video, input, select {
   margin: 0;
   padding: 0;
   border: 0;
@@ -106,6 +106,52 @@ body {
   }
 }
 
+.flexcol {
+  display: flex;
+  flex-direction: column;
+}
+
+.w1-3 {
+  width: 33%;
+}
+
+header {
+  position: absolute;
+  z-index: 3;
+}
+header .menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1%;
+  width: 100vw;
+}
+header .menu .logo {
+  width: 77px;
+}
+header .menu .search {
+  align-items: center;
+  width: 25%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+header .menu .search a {
+  color: #ffffff;
+}
+header .menu .search .borderh {
+  border-bottom: #04c9c9 2px solid;
+}
+
+.bar {
+  width: auto;
+  display: flex;
+  gap: 3rem;
+  margin-right: 10%;
+  font-size: 1rem;
+  align-items: center;
+}
+
 footer {
   color: #96694B;
   background-color: #96694B;
@@ -173,51 +219,6 @@ footer .footer_lower {
   gap: 10%;
   border-top: 1px solid black;
 }
-.flexcol {
-  display: flex;
-  flex-direction: column;
-}
-
-.w1-3 {
-  width: 33%;
-}
-
-header {
-  position: absolute;
-  z-index: 3;
-}
-header .menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 1%;
-  width: 100vw;
-}
-header .menu .logo {
-  width: 77px;
-}
-header .menu .search {
-  align-items: center;
-  width: 25%;
-  margin-right: 10%;
-  display: flex;
-  justify-content: space-between;
-}
-header .menu .search a {
-  color: #ffffff;
-}
-header .menu .search .borderh {
-  border-bottom: rgb(4, 201, 201) 2px solid;
-}
-
-.bar {
-  width: auto;
-  display: flex;
-  gap: 3rem;
-  margin-right: 10%;
-  font-size: 1rem;
-  align-items: center;
-}
 
 .button {
   background-color: transparent;
@@ -234,8 +235,8 @@ header .menu .search .borderh {
 }
 
 .jaune {
-  color: rgb(255, 232, 193);
-  border: rgb(255, 232, 193) 3px solid;
+  color: #ffe8c1;
+  border: #ffe8c1 3px solid;
 }
 
 .blanc {
@@ -278,13 +279,13 @@ header .menu .search .borderh {
 }
 
 h1 {
-  color: #04C9C9;
+  color: #007F7F;
   font-size: 3.7rem;
   font-weight: 400;
 }
 
 h2 {
-  color: #FFE8C1;
+  color: #ffe8c1;
   font-size: 2rem;
   font-weight: 400;
 }
@@ -293,6 +294,8 @@ h2 {
   display: flex;
   width: 100vw;
   justify-content: space-around;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 .nous .flexcol {
   margin-top: 2%;
@@ -304,6 +307,7 @@ h2 {
 }
 .nous img {
   width: 30%;
+  margin: 5%;
   border-radius: 5px;
   object-fit: contain;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -333,6 +337,8 @@ h2 {
   display: flex;
   width: 100vw;
   justify-content: space-around;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 .pret .flexcol {
   margin-top: 2%;
