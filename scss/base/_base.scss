@@ -1,7 +1,7 @@
 // Config basic size and fonts for all pages
 :root {
-  font-size: 16px;
-  font-family: 'Comfortaa', sans-serif;
+  font-size: 24px;
+  font-family: 'Swistblnk Monthoers';
 
   @include for-mobiles {
     font-size: 14px;
@@ -16,10 +16,9 @@ html{
 body {
   width: 100vw;
   height: auto;
-  display: flex;
   flex-direction: column;
   gap: 120px;
-  background-color: $white;
+  background-color: $bg;
   overflow-x: hidden;
 
   @include for-tablets {
@@ -42,15 +41,20 @@ body {
   border-radius: 100px;
 }
 
-section {
-  width: 1200px;
-  margin: 0 auto;
-  display: flex;
+#section{
+
 
   @include for-tablets {
     width: 100%;
     flex-direction: column-reverse;
     justify-content: center !important;
-    padding: 32px;
   }
+}
+
+.flexcol{
+  display: flex;
+  flex-direction: column;
+}
+.w1-3{
+  width: 33%;
 }

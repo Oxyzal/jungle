@@ -1,0 +1,64 @@
+.menumain{
+    background-color: black;
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    object-fit: contain; 
+    background-position: center; 
+    background-size:cover;
+
+
+    h1{
+        margin: 0 auto;
+        
+    }
+}
+
+.carte2{
+    display: flex;
+    height: auto;
+    width: 100vw;
+    .carteadmin{
+        background: #fdf6e8;
+        margin: 20px;
+        width: 25%;
+        height: auto;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        .espace{
+            margin: 5%;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            .cr{
+                color: $primary2;
+                font-size: 2.5rem;
+                cursor: pointer;
+                transition: 1s;
+            }.cr:hover{
+                font-size: 2.8rem;
+                transition: 1s;
+            }
+            .trait{
+                height: 2px;
+                background-color: black;
+            }
+            .choix{
+                color: $primary2;
+                transition: 1s;
+                cursor: pointer;
+            }.choix:hover{
+                font-size: 1.2rem;
+                transition: 1s;
+            }
+        }
+        
+    }
+    .carteinfo{
+        width: 78%;
+    }
+}

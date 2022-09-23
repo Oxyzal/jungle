@@ -1,0 +1,111 @@
+.main{
+  display: flex;
+  flex-direction: column  ;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  object-fit: contain; 
+  background-position: center; 
+  background-size:cover;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  padding: 10%;
+  background-image: url('./img/header.jpg');
+}
+
+
+
+
+h1{
+  @include main_color;
+  font-size: 3.7rem;
+  font-weight: 400;
+}
+h2{
+  @include third_color;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.nous{
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  .flexcol{
+    margin-top: 2%;
+    gap: 2rem;
+    .rem3{
+      font-size: 2rem;
+      color: $primary2;
+    }
+  }
+  img{
+    width: 30%;
+    border-radius: 5px;
+    object-fit: contain;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+}
+
+.carte{
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  color: $white;
+  padding-top: 5%;
+  padding-bottom: 15%;
+  .flexcol{
+    margin-top: 2%;
+    gap: 2rem;
+    .rem3{
+      font-size: 2rem;
+
+    }
+  }
+  background-image: url('./img/Burgers.png');
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-size:cover;
+}
+
+
+
+.pret{
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  .flexcol{
+    margin-top: 2%;
+    gap: 2rem;
+    .rem3{
+      font-size: 2rem;
+      color: $primary2;
+    }
+  }
+}
+
+.jungle{
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  color: $white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  .flexcol{
+    margin-top: 2%;
+    gap: 2rem;
+    .rem3{
+      font-size: 2rem;
+
+    }
+  }
+  img{
+    width: 40%;
+    border-radius: 5px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    object-fit: contain;
+  }
+  background-image: url('./img/Jungle.png');;
+}

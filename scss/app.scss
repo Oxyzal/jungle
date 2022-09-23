@@ -6,7 +6,10 @@
         'base/base';
 
 @import 'components/header',
-        'components/footer';
+        'components/footer',
+        'components/button';
 
 @import 'pages/index',
-        'pages/projects';
+        'pages/projects',
+        'pages/menu',
+        'pages/contact';
