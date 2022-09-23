@@ -607,6 +607,12 @@ h2 {
   display: flex;
   height: auto;
   width: 100vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.carte2 h2 {
+  font-family: "Swistblnk Monthoers";
+  color: #007F7F;
 }
 .carte2 .carteadmin {
   background: #fdf6e8;

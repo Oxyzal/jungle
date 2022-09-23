@@ -5,6 +5,7 @@
     display: flex;
     text-align: center;
     align-items: center;
+    
 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -23,12 +24,20 @@
     display: flex;
     height: auto;
     width: 100vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    h2{
+        font-family: 'Swistblnk Monthoers';
+        color: $primary2;
+    }
     .carteadmin{
         background: #fdf6e8;
         margin: 20px;
         width: 25%;
         height: auto;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        
+        
         .espace{
             margin: 5%;
             display: flex;
